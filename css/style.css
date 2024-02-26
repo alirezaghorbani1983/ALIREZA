@@ -42,3 +42,7 @@ a:hover {
 #publish-time {
   color: gray;
 }
+
+.description h5{
+  color: blueviolet;
+}
