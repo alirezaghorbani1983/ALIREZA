@@ -8,7 +8,7 @@ h1 {
     background-position: center;
 }
 
-h2 {
+h2.brushes {
     font-family: Helvetica;
     font-size: 32px;
     font-weight: bold;
@@ -17,14 +17,20 @@ h2 {
     text-align: left;
 }
 
-img.hacksaw {
-    display: block;
-    /* Zorgt ervoor dat de afbeelding een blok element is */
-    margin: 0 auto;
-    /* Center de afbeelding horizontaal */
-}
-
 .image-container {
     text-align: left;
     /* Links uitlijnen */
+}
+
+h3 {
+    font-family: Helvetica;
+}
+
+h2.frames {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: lightcoral;
+    text-align: left;
 }
