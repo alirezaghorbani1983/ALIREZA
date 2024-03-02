@@ -1,0 +1,30 @@
+h1 {
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    background-image: url("pattern.jpeg");
+    background-position: center;
+}
+
+h2 {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: mediumspringgreen;
+    text-align: left;
+}
+
+img.hacksaw {
+    display: block;
+    /* Zorgt ervoor dat de afbeelding een blok element is */
+    margin: 0 auto;
+    /* Center de afbeelding horizontaal */
+}
+
+.image-container {
+    text-align: left;
+    /* Links uitlijnen */
+}
