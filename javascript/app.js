@@ -38,7 +38,7 @@ console.log('The value of levelUp:', levelUp);
 console.log('The value of powerLevel:', powerLevel); 
 console.log('The value of multiplyMe:', multiplyMe); 
 console.log('The value of quarterMe:', quarterMe);
-*/
+
 
 //increment en decrement operator
 
@@ -50,3 +50,9 @@ console.log(gainedDollar);
 
 lostDollar--;
 console.log(lostDollar);
+
+*/
+
+//concatenation
+let favoriteAnimal = "dog";
+console.log('My favorite animal: ' + favoriteAnimal);
