@@ -14,6 +14,7 @@ changeMe = false;
 console.log(changeMe);
 */
 
+/*
 //constant variable
 const entree = "Enchiladas";
 console.log(entree);
@@ -37,4 +38,15 @@ console.log('The value of levelUp:', levelUp);
 console.log('The value of powerLevel:', powerLevel); 
 console.log('The value of multiplyMe:', multiplyMe); 
 console.log('The value of quarterMe:', quarterMe);
+*/
 
+//increment en decrement operator
+
+let gainedDollar = 3;
+let lostDollar = 50;
+
+gainedDollar++;
+console.log(gainedDollar);
+
+lostDollar--;
+console.log(lostDollar);
