@@ -68,7 +68,7 @@ if (hungerLevel > 7) {
     console.log('We can eat later!')
 }
 */
-
+/*
 let mood = 'sleepy';
 let tirednessLevel = 6;
 
@@ -77,4 +77,24 @@ if(mood === 'sleepy' && tirednessLevel > 8){
 } else {
   console.log('not bed time yet')
 }
+*/
 
+/*
+
+let username = ''; // Declares a variable named username and assigns an empty string to it.
+let defaultName; // Declares a variable named defaultName without assigning a value to it.
+
+if (username) { // Checks if the username variable has a truthy value. Since it's an empty string, it's considered falsy.
+  defaultName = username; // If username is truthy, assign its value to defaultName.
+} else {
+  defaultName = 'Stranger'; // If username is falsy, assign the string 'Stranger' to defaultName.
+}
+
+console.log(defaultName); // Prints the value of defaultName to the console. In this case, it prints 'Stranger'.
+*/
+let tool = '';
+
+// Use short circuit evaluation to assign  writingUtensil variable below:
+let writingUtensil = tool || 'pen';
+
+console.log(`The ${writingUtensil} is mightier than the sword.`);
