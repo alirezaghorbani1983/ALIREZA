@@ -92,7 +92,7 @@ if (username) { // Checks if the username variable has a truthy value. Since it'
 
 console.log(defaultName); // Prints the value of defaultName to the console. In this case, it prints 'Stranger'.
 */
-let tool = '';
+let tool = 'ruler';
 
 // Use short circuit evaluation to assign  writingUtensil variable below:
 let writingUtensil = tool || 'pen';
