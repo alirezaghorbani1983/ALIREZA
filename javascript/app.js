@@ -112,3 +112,16 @@ if (isLocked) {
 */
 
 isLocked ? console.log('You will need a key to open the door.') : console.log('You will not need a key to open the door.');
+
+
+//ternary operator - second example
+let isCorrect = true;
+/*
+if (isCorrect) {
+  console.log('Correct!');
+} else {
+  console.log('Incorrect!');
+}
+*/
+
+isCorrect ? console.log('Correct!') : console.log('Incorrect!');
