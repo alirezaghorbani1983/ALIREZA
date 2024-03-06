@@ -98,3 +98,17 @@ let tool = 'ruler';
 let writingUtensil = tool || 'pen';
 
 console.log(`The ${writingUtensil} is mightier than the sword.`);
+
+
+//ternary operator
+
+let isLocked = false;
+/*
+if (isLocked) {
+  console.log('You will need a key to open the door.');
+} else {
+  console.log('You will not need a key to open the door.');
+}
+*/
+
+isLocked ? console.log('You will need a key to open the door.') : console.log('You will not need a key to open the door.');
