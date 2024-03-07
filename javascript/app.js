@@ -157,7 +157,7 @@ if (season === 'spring') {
 }
 */
 
-
+/*
 let athleteFinalPosition = 'first place';
 
 switch (athleteFinalPosition) {
@@ -174,3 +174,4 @@ switch (athleteFinalPosition) {
         console.log('No medal awarded.')
         break;
 }
+/*
