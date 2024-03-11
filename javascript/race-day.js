@@ -7,12 +7,12 @@ let earlyRegister = true;
 
 let runnerAge = 10;
 
-if (earlyRegister === true && runnerAge > 18) {
-    raceNumber += 1000;
+if (earlyRegister && runnerAge > 18){
+  raceNumber += 1000;
 }
 
-if (runnerAge > 18 && earlyRegister === true) {
-    console.log('Begin at 9:30 AM')
+if (earlyRegister && runnerAge > 18){
+  console.log(`Race begins at 9:30 AM . Your race number is : ${raceNumber}.`);
 } else if (runnerAge > 18 && earlyRegister === false) {
     console.log('Begin at 11:00 AM')
 } else if (runnerAge < 18) {
