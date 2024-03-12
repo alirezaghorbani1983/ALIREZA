@@ -1,11 +1,7 @@
 <?php
-$name = "Ali";
-$name = "reza";
+$x = 5;
 
-$newName = &$name;
+var_dump($x);
+var_dump((int)$x);
 
-$newName = "Mohsen";
-echo $newName;
-
-echo $name;
 ?>
