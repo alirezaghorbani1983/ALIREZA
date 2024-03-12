@@ -7,5 +7,5 @@
 
 // var_dump((float)$y);
 $s = 2.99;
-var_dump(is_float($s));
+var_dump(is_numeric($s));
 ?>
