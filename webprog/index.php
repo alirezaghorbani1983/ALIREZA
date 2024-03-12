@@ -2,6 +2,9 @@
 $x = 5;
 
 var_dump($x);
-var_dump((int)$x);
+
+$y = 10;
+
+var_dump((float)$y);
 
 ?>
