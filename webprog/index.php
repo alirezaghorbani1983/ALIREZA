@@ -8,4 +8,10 @@
 // var_dump((float)$y);
 $s = 2.99;
 var_dump(is_numeric($s));
+
+echo rand(0,10) . PHP_EOL;
+
+echo floor(6.9);
+
+
 ?>
