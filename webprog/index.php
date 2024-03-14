@@ -28,9 +28,23 @@
 
 // print_r($names);
 
-$x = false;
-$y = true;
-echo var_dump($x ^ $y);
-var_dump(!$x);
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <?php if(false): ?>
+        <h1>webprog.ir</h1>
+    <?php elseif(true): ?>
+        <h1>webprog</h1>
+    <?php else: ?>
+        <h1>Hello world</h1>
+    <?php endif ?>
+
+</body>
+</html>
 
 ?>
