@@ -31,7 +31,7 @@
 $num1 = [1, 2, 4, 5];
 $num2 = [1, 3, 4, 8];
 
-$result = array_diff($num1, $num2);
+$result = array_merge($num1, $num2);
 print_r($result);
 
 ?>
