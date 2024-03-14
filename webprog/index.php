@@ -21,11 +21,17 @@
 // //echo substr($str, 6, 3);
 // echo strpos($str, 'o', 5);
 // echo strripos($str, 'O');
-$names = ['ali', 'liam', 'sara'];
+// $names = ['ali', 'liam', 'sara'];
 
-rsort($names);
+// rsort($names);
 
 
-print_r($names);
+// print_r($names);
+
+$num1 = [1, 2, 4, 5];
+$num2 = [1, 3, 4, 8];
+
+$result = array_diff($num1, $num2);
+print_r($result);
 
 ?>
