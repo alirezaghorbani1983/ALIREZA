@@ -23,7 +23,7 @@
 // echo strripos($str, 'O');
 $names = ['ali', 'liam', 'sara'];
 
-array_shift($names);
+rsort($names);
 
 
 print_r($names);
