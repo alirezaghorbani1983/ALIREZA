@@ -13,13 +13,19 @@
 
 // echo floor(6.9);
 
-$str = 'hello world';
-//echo str_world_count($str);
-// $str[3] = 'm';
-// echo $str;
+// $str = 'hello world';
+// //echo str_world_count($str);
+// // $str[3] = 'm';
+// // echo $str;
 
-//echo substr($str, 6, 3);
-echo strpos($str, 'o', 5);
-echo strripos($str, 'O');
+// //echo substr($str, 6, 3);
+// echo strpos($str, 'o', 5);
+// echo strripos($str, 'O');
+$names = ['ali', 'liam', 'sara'];
+
+array_shift($names);
+
+
+print_r($names);
 
 ?>
