@@ -62,10 +62,10 @@
 // }
 
 $i = 2;
-do {
+while($i <= 5){
     echo $i . PHP_EOL;
     $i++;
-}while($i <= 5);
+}
 
 
 
