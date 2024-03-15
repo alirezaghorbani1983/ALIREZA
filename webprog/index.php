@@ -61,12 +61,12 @@
 //     echo $i . PHP_EOL;
 // }
 
-for($i = 1; $i <= 5; $i++){
-    if($i == 4){
-        echo "skipping ..." . PHP_EOL;
-        continue;
-    }
+$i = 2;
+do {
     echo $i . PHP_EOL;
-}
+    $i++;
+}while($i <= 5);
+
+
 
 
