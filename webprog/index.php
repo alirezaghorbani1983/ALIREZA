@@ -45,12 +45,20 @@
 // }
 
 
-for($i = 1; $i <= 5; $i++){
-    echo $i . PHP_EOL;
+// for($i = 1; $i <= 5; $i++){
+//     echo $i . PHP_EOL;
 
-    for($j = 0; $j <= 3; $j++){
-        echo $i . '-' . $j . PHP_EOL;
+//     for($j = 0; $j <= 3; $j++){
+//         echo $i . '-' . $j . PHP_EOL;
+//     }
+// }
+
+for($i = 1; $i <= 5; $i++){
+    if($i == 3){
+        echo "Breaking ...";
+        break;
     }
+    echo $i . PHP_EOL;
 }
 
 
