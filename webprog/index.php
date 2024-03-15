@@ -53,10 +53,18 @@
 //     }
 // }
 
+// for($i = 1; $i <= 5; $i++){
+//     if($i == 3){
+//         echo "Breaking ...";
+//         break;
+//     }
+//     echo $i . PHP_EOL;
+// }
+
 for($i = 1; $i <= 5; $i++){
-    if($i == 3){
-        echo "Breaking ...";
-        break;
+    if($i == 4){
+        echo "skipping ..." . PHP_EOL;
+        continue;
     }
     echo $i . PHP_EOL;
 }
