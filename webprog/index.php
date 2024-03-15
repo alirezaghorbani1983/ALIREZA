@@ -28,20 +28,29 @@
 
 //print_r($names);
 
-$x = 5;
-switch($x){
-    case 1: 
-        echo "x is 1";
-        break;
-    case 2:
-        echo "x is 2";
-        break;
-    case 3: 
-        echo "x is 3";
-        break;
-    default:
-        echo "x is $x";
-        break;
+// $x = 5;
+// switch($x){
+//     case 1: 
+//         echo "x is 1";
+//         break;
+//     case 2:
+//         echo "x is 2";
+//         break;
+//     case 3: 
+//         echo "x is 3";
+//         break;
+//     default:
+//         echo "x is $x";
+//         break;
+// }
+
+
+for($i = 1; $i <= 5; $i++){
+    echo $i . PHP_EOL;
+
+    for($j = 0; $j <= 3; $j++){
+        echo $i . '-' . $j . PHP_EOL;
+    }
 }
 
 
