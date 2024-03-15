@@ -1,3 +1,4 @@
+<?php
 // $x = 5;
 
 // var_dump($x);
@@ -25,24 +26,22 @@
 // rsort($names);
 
 
-// print_r($names);
+//print_r($names);
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <?php if(false): ?>
-        <h1>webprog.ir</h1>
-    <?php elseif(true): ?>
-        <h1>webprog</h1>
-    <?php else: ?>
-        <h1>Hello world</h1>
-    <?php endif ?>
+$x = 5;
+switch($x){
+    case 1: 
+        echo "x is 1";
+        break;
+    case 2:
+        echo "x is 2";
+        break;
+    case 3: 
+        echo "x is 3";
+        break;
+    default:
+        echo "x is $x";
+        break;
+}
 
-</body>
-</html>
 
