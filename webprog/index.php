@@ -62,11 +62,12 @@
 // }
 
 $i = 2;
-while($i <= 5){
-    echo $i . PHP_EOL;
-    $i++;
+function add($x, $y)
+{
+    return $x + $y;
 }
-
+$result = add(5, 6);
+echo $result;
 
 
 
