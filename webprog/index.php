@@ -60,13 +60,14 @@
 //     }
 //     echo $i . PHP_EOL;
 // }
+declare(strict_types = 1);
 
-$i = 2;
-function add($x, $y)
+
+function add(int|float|string $x, int $y)
 {
     return $x + $y;
 }
-$result = add(5, 6);
+$result = add('5', 6);
 echo $result;
 
 
