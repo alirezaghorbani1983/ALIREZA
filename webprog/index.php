@@ -97,9 +97,13 @@
 
 // echo $greet("ali");
 
-$y = 50;
+// $y = 50;
 
-$greet = fn ($name) => "hello $name - $y";
+// $greet = fn ($name) => "hello $name - $y";
 
 echo $greet("liam");
+require "./other.php";
+require_once "./other.php";
+require "test.php";
 
+example();
