@@ -70,14 +70,21 @@
 // $result = add('5', 6);
 // echo $result;
 
-function sum($x, $y, ...$numbers)
-{
-    print_r($numbers);
+// function sum($x, $y, ...$numbers)
+// {
+//     print_r($numbers);
 
-    return $x + $y;
+//     return $x + $y;
+// }
+
+// echo sum(10, 12, 4, 8, 9);
+
+$x = 100; //global
+function demo(){
+    global $x;
+    $y = 50; //local
+    echo $x;
 }
 
-echo sum(10, 12, 4, 8, 9);
-
-
+demo();
 
