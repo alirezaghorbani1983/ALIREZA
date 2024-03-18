@@ -1,4 +1,4 @@
-<?php
+
 // $x = 5;
 
 // var_dump($x);
@@ -101,9 +101,22 @@
 
 // $greet = fn ($name) => "hello $name - $y";
 
-echo $greet("liam");
-require "./other.php";
-require_once "./other.php";
-require "test.php";
+// echo $greet("liam");
+// require "./other.php";
+// require_once "./other.php";
+// require "test.php";
 
-example();
+// example();
+
+<?php
+
+?>
+
+<form action="./index.php" method="get>
+<input type="text" name="email"/>
+<br>
+<input type="text" name="password"/>
+<br>
+<button type="submit" name="send">send</button>
+
+</form>
