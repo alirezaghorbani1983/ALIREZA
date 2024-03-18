@@ -90,8 +90,8 @@
 
 $x = 20;
 
-$greet = function ($name) {
-    global $x;
+$greet = function ($name) use($x) {
+    // global $x;
     return "hello $name - $x";
 };
 
