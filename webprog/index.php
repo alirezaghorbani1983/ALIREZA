@@ -79,12 +79,21 @@
 
 // echo sum(10, 12, 4, 8, 9);
 
-$x = 100; //global
-function demo(){
-    global $x;
-    $y = 50; //local
-    echo $x;
-}
+// $x = 100; //global
+// function demo(){
+//     global $x;
+//     $y = 50; //local
+//     echo $x;
+// }
 
-demo();
+// demo();
+
+$x = 20;
+
+$greet = function ($name) {
+    global $x;
+    return "hello $name - $x";
+};
+
+echo $greet("ali");
 
