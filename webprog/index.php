@@ -60,15 +60,24 @@
 //     }
 //     echo $i . PHP_EOL;
 // }
-declare(strict_types = 1);
+// declare(strict_types = 1);
 
 
-function add(int|float|string $x, int $y)
+// function add(int|float|string $x, int $y)
+// {
+//     return $x + $y;
+// }
+// $result = add('5', 6);
+// echo $result;
+
+function sum($x, $y, ...$numbers)
 {
+    print_r($numbers);
+
     return $x + $y;
 }
-$result = add('5', 6);
-echo $result;
+
+echo sum(10, 12, 4, 8, 9);
 
 
 
