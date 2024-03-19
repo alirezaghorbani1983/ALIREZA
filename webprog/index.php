@@ -109,14 +109,15 @@
 // example();
 
 <?php
+echo "<pre>";
+    print_r($_GET);
 
 ?>
 
-<form action="./index.php" method="get>
-<input type="text" name="email"/>
-<br>
-<input type="text" name="password"/>
-<br>
-<button type="submit" name="send">send</button>
-
+<form action="./index.php">
+    <input type="text" name="email">
+    <br>
+    <input type="text" name="password">
+    <br>
+    <button type="submit" name="send">send</button>
 </form>
