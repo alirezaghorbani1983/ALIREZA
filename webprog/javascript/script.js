@@ -36,3 +36,17 @@ const arr = [1, 2, 3, 4];
 arr.push(5);
 
 console.log(arr);
+
+// let a;
+// let b;
+// let c;
+
+// let a, b, c;
+
+// a = 40;
+
+let a = 20, b = 30, c = 40;
+
+a = 40;
+
+const d = 50, e = 60, f = 70;
