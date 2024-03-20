@@ -18,14 +18,21 @@
 
 // console.log(firstName, lastName, age);
 
-let x;
+// let x;
 
-x = 5;
+// x = 5;
 
-console.log(x);
+// console.log(x);
 
-const y = 10;
+// const y = 10;
 
-console.log(y);
+// console.log(y);
 
-y = 8;
+// y = 8;
+
+const arr = [1, 2, 3, 4];
+
+//arr = [1, 2, 3, 4, 5];
+arr.push(5);
+
+console.log(arr);
