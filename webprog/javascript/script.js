@@ -145,7 +145,12 @@ arr.shift();
 
 x = arr.includes(50);
 
-x = arr.indexOf(4);
+x = arr.indexOf(7);
+
+// x = arr.slice(2, 5);
+
+x = arr.splice(1, 4);
+x = arr.splice(1, 4).reverse().toString().charAt(0);
 
 console.log(x);
 
