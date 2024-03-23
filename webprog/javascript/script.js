@@ -182,17 +182,45 @@
 
 // x = Array.of(a, b, c);
 // console.log(x);
-let x;
+// let x;
 
-const person = {
-    name : 'ali',
-    age : 30,
-    address: {
-        city : 'paris'
+// const person = {
+//     name : 'ali',
+//     age : 30,
+//     address: {
+//         city : 'paris'
+//     },
+//     numbers: [1, 2, 3, 4]
+// };
+
+// x = person.numbers[1];
+
+// person.name = "maria";
+
+// x = person.name;
+
+// delete person.age;
+
+// person.isAdmin = true;
+
+// console.log(person);
+
+const user = {
+    adddress : {
+        city: {
+            id : 1,
+            name : 'london'
+
+        }
     }
-};
+}
 
-x = person.address.city;
+// console.log(user.adddress.city.name);
 
-console.log(x);
+const obj1 = {a: 1, b: 2};
+const obj2 = {c: 3, d: 4};
+
+const obj3 = {...obj1, ...obj2};
+
+console.log(obj3);
 
