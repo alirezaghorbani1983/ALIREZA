@@ -40,9 +40,19 @@
 // value = parseFloat(value);
 
 // convert number to boolean
-let value = 0;
+// let value = 'ssstt';
 
-value = Boolean(value);
-console.log(value, typeof value);
+// value = Boolean(value);
+// console.log(value, typeof value);
 
+// x = 2;
+// // x++;
+// x--;
 
+// console.log(x);
+
+let x = 2;
+
+let y = '2';
+
+console.log(x === y);
