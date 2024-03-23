@@ -153,32 +153,46 @@
 // x = arr.splice(1, 4).reverse().toString().charAt(0);
 
 // console.log(x);
-let x;
-const numbers = [1, 2, 3, 4, 5];
+// let x;
+// const numbers = [1, 2, 3, 4, 5];
 
-const names = ['ali', 'nima', 'liam'];
+// const names = ['ali', 'nima', 'liam'];
 
 // numbers.push(names)
 
 // console.log(numbers[5][2]);
 
-const arr = [numbers, names];
+// const arr = [numbers, names];
 
 // x = numbers.concat(names);
 
 //spread operator
 
-x = [...numbers, ...names];
+// x = [...numbers, ...names];
 
-const arr2 = [1, 2, [3,4], 5, [6,7]];
+// const arr2 = [1, 2, [3,4], 5, [6,7]];
 
-x = arr2.flat();
+// x = arr2.flat();
 
-// x = Array.isArray(numbers);
+// // x = Array.isArray(numbers);
 
-// x = Array.from('1234');
+// // x = Array.from('1234');
 
-const a = 1, b = 2, c = 3;
+// const a = 1, b = 2, c = 3;
 
-x = Array.of(a, b, c);
+// x = Array.of(a, b, c);
+// console.log(x);
+let x;
+
+const person = {
+    name : 'ali',
+    age : 30,
+    address: {
+        city : 'paris'
+    }
+};
+
+x = person.address.city;
+
 console.log(x);
+
