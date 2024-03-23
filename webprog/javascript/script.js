@@ -67,8 +67,17 @@ let x;
 
 // x = `my name is ${firstName} ${lastName} ${ 1 + 2 }`;
 
-const s = 'google';
+const s = 'webprog.io';
+// const s = new String('google');
 
-x = s.length;
+console.log(s);
+
+
+// x = s.length;
+
+x = s.charAt(1);
+
+x = s.toUpperCase();
+x = s.toLowerCase();
 
 console.log(x);
