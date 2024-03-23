@@ -57,7 +57,7 @@
 
 // console.log(x === y);
 
-let x;
+// let x;
 
 // const firstName = 'alireza';
 
@@ -67,17 +67,34 @@ let x;
 
 // x = `my name is ${firstName} ${lastName} ${ 1 + 2 }`;
 
-const s = 'webprog.io';
+// const s = ' google.com  ';
 // const s = new String('google');
 
-console.log(s);
+// console.log(s);
 
 
 // x = s.length;
 
-x = s.charAt(1);
+// x = s.charAt(1);
 
-x = s.toUpperCase();
-x = s.toLowerCase();
+// x = s.toUpperCase();
+// x = s.toLowerCase();
+
+// x = s.trim();
+
+// x = s.replace('com', 'org');
+
+// x = s.includes('ali');
+// x = s.includes('oo');
+
+// x = s.split('');
+
+// console.log(x);
+let x;
+
+let num = 677;
+
+x = num.toString().length;
 
 console.log(x);
+
