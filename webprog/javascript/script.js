@@ -111,23 +111,42 @@
 
 // console.log(x);
 
-const arr = [1, 2, 3, 4, 5];
+// const arr = [1, 2, 3, 4, 5];
 
-const mixed = [1, 'hello', null, true];
+// const mixed = [1, 'hello', null, true];
 
-const numbers = new Array(5, 6, 8, 1, 2);
+// const numbers = new Array(5, 6, 8, 1, 2);
 
+// let x;
+
+// x = numbers[1] + numbers[3];
+
+// x = `first number is ${numbers[0]}`;
+
+// x = numbers.length;
+
+// x = numbers[numbers.length - 1];
+
+// numbers[1] = 10;
+
+// console.log(numbers);
 let x;
 
-x = numbers[1] + numbers[3];
+const arr = [1, 2, 3, 4, 5];
 
-x = `first number is ${numbers[0]}`;
+arr.push(10);
 
-x = numbers.length;
+arr.pop();
 
-x = numbers[numbers.length - 1];
+arr.unshift(10);
+arr.shift();
 
-numbers[1] = 10;
+// arr.reverse();
 
-console.log(numbers);
+x = arr.includes(50);
+
+x = arr.indexOf(4);
+
+console.log(x);
+
 
