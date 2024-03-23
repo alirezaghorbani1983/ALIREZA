@@ -51,8 +51,24 @@
 
 // console.log(x);
 
-let x = 2;
+// let x = 2;
 
-let y = '2';
+// let y = '2';
 
-console.log(x === y);
+// console.log(x === y);
+
+let x;
+
+// const firstName = 'alireza';
+
+// const lastName = 'ghorbani';
+
+// x = 'my name is ' + firstName + ' ' + lastName;
+
+// x = `my name is ${firstName} ${lastName} ${ 1 + 2 }`;
+
+const s = 'google';
+
+x = s.length;
+
+console.log(x);
