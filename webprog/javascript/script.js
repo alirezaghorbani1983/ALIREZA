@@ -269,14 +269,44 @@
 
 // console.log(x);
 
-const firstName = 'ali';
-const lastName = 'ghorbani';
-const age = 32;
+// const firstName = 'ali';
+// const lastName = 'ghorbani';
+// const age = 32;
 
-const user ={
-    firstName,
-    lastName,
-    age : age
+// const user ={
+//     firstName,
+//     lastName,
+//     age : age
+// }
+
+// console.log(user);
+
+const todo = {
+    id : 1,
+    title : 'todo 1',
+    user : {
+        name : 'ali'
+    }
 }
 
-console.log(user);
+// const id = todo.id;
+
+ const {id: todoId, title, user:{ name }} = todo;
+
+// console.log(id, title, name);
+console.log(todoId, title, name);
+
+const numbers =[10, 29, 31, 42, 52];
+const numbers2 =[100, 249, 314, 425, 552];
+
+console.log([...numbers, ...numbers2]);
+
+
+// destructuring in array and rest operator
+
+const [first, second, ...other] = numbers;
+
+console.log(first, second, other);
+
+
+
