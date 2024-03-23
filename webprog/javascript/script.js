@@ -205,7 +205,47 @@
 
 // console.log(person);
 
-const user = {
+// const user = {
+//     adddress : {
+//         city: {
+//             id : 1,
+//             name : 'london'
+
+//         }
+//     }
+// }
+
+// console.log(user.adddress.city.name);
+
+const obj1 = {a: 1, b: 2};
+const obj2 = {c: 3, d: 4};
+
+const obj3 = {...obj1, ...obj2};
+
+// console.log(obj3);
+
+const todos = [
+    {
+        id : 1,
+        title : 'todo 1' 
+    },
+    {
+        id : 2,
+        title : 'todo 2' 
+    },
+    {
+        id : 3,
+        title : 'todo 3' 
+    }
+
+];
+
+console.log(todos[1].title);
+let x;
+
+const user1 = {
+    name: 'ali',
+    age : 20,
     adddress : {
         city: {
             id : 1,
@@ -215,12 +255,17 @@ const user = {
     }
 }
 
-// console.log(user.adddress.city.name);
+x = Object.keys(user1);
+x = Object.keys(user1.adddress);
 
-const obj1 = {a: 1, b: 2};
-const obj2 = {c: 3, d: 4};
+x = Object.keys(user1).length;
 
-const obj3 = {...obj1, ...obj2};
+x = x = Object.values(user1);
 
-console.log(obj3);
+x = Object.entries(user1);
+
+x = Object.hasOwnProperty('name');
+
+
+console.log(x);
 
