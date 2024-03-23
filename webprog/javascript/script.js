@@ -90,11 +90,44 @@
 // x = s.split('');
 
 // console.log(x);
+// let x;
+
+// let num = 9;
+
+// x = num.toString().length;
+
+// x = Math.round(11.7);
+
+// x = Math.ceil(11.7);
+
+// x = Math.floor(11.7);
+
+// x = Math.pow(2, 3);
+// x = Math.min(2, 3, 9);
+// x = Math.max(2, 3, 9);
+
+// x = Math.random() * 10 + 1;
+// x = Math.floor(Math.random() * 10 + 1);
+
+// console.log(x);
+
+const arr = [1, 2, 3, 4, 5];
+
+const mixed = [1, 'hello', null, true];
+
+const numbers = new Array(5, 6, 8, 1, 2);
+
 let x;
 
-let num = 677;
+x = numbers[1] + numbers[3];
 
-x = num.toString().length;
+x = `first number is ${numbers[0]}`;
 
-console.log(x);
+x = numbers.length;
+
+x = numbers[numbers.length - 1];
+
+numbers[1] = 10;
+
+console.log(numbers);
 
