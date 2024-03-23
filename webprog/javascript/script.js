@@ -130,28 +130,55 @@
 // numbers[1] = 10;
 
 // console.log(numbers);
-let x;
+// let x;
 
-const arr = [1, 2, 3, 4, 5];
+// const arr = [1, 2, 3, 4, 5];
 
-arr.push(10);
+// arr.push(10);
 
-arr.pop();
+// arr.pop();
 
-arr.unshift(10);
-arr.shift();
+// arr.unshift(10);
+// arr.shift();
 
 // arr.reverse();
 
-x = arr.includes(50);
+// x = arr.includes(50);
 
-x = arr.indexOf(7);
+// x = arr.indexOf(7);
 
 // x = arr.slice(2, 5);
 
-x = arr.splice(1, 4);
-x = arr.splice(1, 4).reverse().toString().charAt(0);
+// x = arr.splice(1, 4);
+// x = arr.splice(1, 4).reverse().toString().charAt(0);
 
+// console.log(x);
+let x;
+const numbers = [1, 2, 3, 4, 5];
+
+const names = ['ali', 'nima', 'liam'];
+
+// numbers.push(names)
+
+// console.log(numbers[5][2]);
+
+const arr = [numbers, names];
+
+// x = numbers.concat(names);
+
+//spread operator
+
+x = [...numbers, ...names];
+
+const arr2 = [1, 2, [3,4], 5, [6,7]];
+
+x = arr2.flat();
+
+// x = Array.isArray(numbers);
+
+// x = Array.from('1234');
+
+const a = 1, b = 2, c = 3;
+
+x = Array.of(a, b, c);
 console.log(x);
-
-
