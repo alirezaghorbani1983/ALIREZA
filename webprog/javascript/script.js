@@ -336,17 +336,78 @@
 
 // sayHello();
 
-function add(x, y, z = 10){
-    return x + y + z;
+// function add(x, y, z = 10){
+//     return x + y + z;
+// }
+
+// const result = add(5, 9, 16);
+
+// console.log(result);
+
+// function sum(...numbers){
+//     return numbers;
+// }
+
+// console.log(sum(5, 3, 6, 7, 8));
+
+// window.alert('hallo');
+// alert('hallo');
+
+// x = 10;
+
+// console.log(x, 'in global');
+
+// function run(){
+//     const x = 5;
+//     const y = 20;
+//     // console.log(x, 'in function');
+//     // console.log(y + x);
+// }
+
+// console.log(y);
+
+// run();
+
+// if(true){
+//     const z = 30;
+//     // console.log(z);
+// }
+
+// console.log(z);
+
+
+function sum() {
+    let x = 100;
+    const y = 200;
+    var z = 300;
+    // console.log(x, 'in function');
+    console.log(x, y, z);
 }
 
-const result = add(5, 9, 16);
+sum();
 
-console.log(result);
+// console.log(z);
 
-function sum(...numbers){
-    return numbers;
+if(true) {
+    let x = 100;
+    const y = 200;
+    var z = 300;
+
+    console.log(x, y, z);
 }
 
-console.log(sum(5, 3, 6, 7, 8));
+console.log(z);
 
+function first(){
+    const x = 100;
+
+    function second(){
+        const y = 200;
+
+        console.log(x + y);
+    }
+
+    second();
+}
+
+first();
