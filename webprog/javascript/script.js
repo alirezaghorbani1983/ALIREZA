@@ -281,32 +281,51 @@
 
 // console.log(user);
 
-const todo = {
-    id : 1,
-    title : 'todo 1',
-    user : {
-        name : 'ali'
-    }
-}
+// const todo = {
+//     id : 1,
+//     title : 'todo 1',
+//     user : {
+//         name : 'ali'
+//     }
+// }
 
 // const id = todo.id;
 
- const {id: todoId, title, user:{ name }} = todo;
+//  const {id: todoId, title, user:{ name }} = todo;
 
 // console.log(id, title, name);
-console.log(todoId, title, name);
+// console.log(todoId, title, name);
 
-const numbers =[10, 29, 31, 42, 52];
-const numbers2 =[100, 249, 314, 425, 552];
+// const numbers =[10, 29, 31, 42, 52];
+// const numbers2 =[100, 249, 314, 425, 552];
 
-console.log([...numbers, ...numbers2]);
+// console.log([...numbers, ...numbers2]);
 
 
 // destructuring in array and rest operator
 
-const [first, second, ...other] = numbers;
+// const [first, second, ...other] = numbers;
 
-console.log(first, second, other);
+// console.log(first, second, other);
 
+const posts = [
+    {
+    id : 1,
+    title : 'title post 1',
+    body : 'post 1'
+},
+{
+    id : 2,
+    title : 'title post 2',
+    body : 'post 2'
+}
+]
+// console.log(posts);
 
+// convert object to JSON
+const str = JSON.stringify(posts);
 
+//convert JSON to object
+const obj = JSON.parse(str);
+
+console.log(obj);
