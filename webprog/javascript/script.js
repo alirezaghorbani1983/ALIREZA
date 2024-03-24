@@ -308,24 +308,45 @@
 
 // console.log(first, second, other);
 
-const posts = [
-    {
-    id : 1,
-    title : 'title post 1',
-    body : 'post 1'
-},
-{
-    id : 2,
-    title : 'title post 2',
-    body : 'post 2'
-}
-]
+// const posts = [
+//     {
+//     id : 1,
+//     title : 'title post 1',
+//     body : 'post 1'
+// },
+// {
+//     id : 2,
+//     title : 'title post 2',
+//     body : 'post 2'
+// }
+// ]
 // console.log(posts);
 
 // convert object to JSON
-const str = JSON.stringify(posts);
+// const str = JSON.stringify(posts);
 
-//convert JSON to object
-const obj = JSON.parse(str);
+// //convert JSON to object
+// const obj = JSON.parse(str);
 
-console.log(obj);
+// console.log(obj);
+
+// function sayHello(){
+//     console.log('hello world');
+// }
+
+// sayHello();
+
+function add(x, y, z = 10){
+    return x + y + z;
+}
+
+const result = add(5, 9, 16);
+
+console.log(result);
+
+function sum(...numbers){
+    return numbers;
+}
+
+console.log(sum(5, 3, 6, 7, 8));
+
