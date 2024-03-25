@@ -1,13 +1,10 @@
 <?php
 
-$file = fopen('log.txt', 'w');
+$file = fopen('log.txt', 'r');
 
-fwrite($file, 'ali');
+$content = fread($file, 2);
 
-fclose($file);
-
-
-file_put_contents("log.txt", 'php ...', FILE_APPEND)
+echo $content;
 
 ?>
 
