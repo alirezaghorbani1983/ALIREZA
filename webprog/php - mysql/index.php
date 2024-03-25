@@ -1,24 +1,10 @@
 <?php
 
-session_start();
+$file = fopen('log.txt', 'a');
 
-// $_SESSION['id'] = 10;
+fwrite($file, 'ali');
 
-// $_SESSION['name'] = 'alireza ghorbani';
-
-unset($_SESSION['id']);
-
-session_unset();
-
-session_destroy();
-
-// setcookie("user", 'alireza ghorbani', time() - 3600);
-
-// if(isset($_COOKIE['user'])){
-//     echo $_COOKIE['user'];
-// } else {
-//     echo "cookie is not set";
-// }
+fclose($file);
 
 ?>
 
