@@ -18,7 +18,18 @@
 
 // rename('log_copy.txt', 'log_renamed.txt');
 
-unlink('log_renamed.txt');
+// unlink('log_renamed.txt');
+
+//create a directory
+
+// mkdir('dir');
+
+//rename a directory
+// rename('dir', 'dir_renamed');
+
+//remove a directory
+
+rmdir('dir_renamed')
 
 ?>
 
