@@ -1,7 +1,12 @@
 <?php
 
-function example (){
-    echo "google.com";
+// phpinfo();
+
+session_start();
+
+if(isset($_SESSION['id'])){
+    echo $_SESSION['id'];
 }
+
 
 ?>
