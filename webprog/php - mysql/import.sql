@@ -9,3 +9,5 @@ INSERT INTO users (name) VALUES ("alireza"),
 SELECT * FROM users WHERE id > 2;
 
 SELECT * FROM users WHERE name LIKE '%ra';
+
+SELECT * FROM users LIMIT 2,4;
