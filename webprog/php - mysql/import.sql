@@ -7,3 +7,5 @@ INSERT INTO users (name) VALUES ("alireza"),
                                 ("ali");
 
 SELECT * FROM users WHERE id > 2;
+
+SELECT * FROM users WHERE name LIKE '%ra';
