@@ -43,6 +43,8 @@ echo "<pre>";
 // print_r($result-> fetch());
 
 print_r($result-> fetch(pdo::FETCH_ASSOC));
+print_r($result-> fetch(pdo::FETCH_NUM));
+print_r($result-> fetch(pdo::FETCH_BOTH));
 
 ?>
 
