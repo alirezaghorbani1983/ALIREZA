@@ -29,7 +29,20 @@
 
 //remove a directory
 
-rmdir('dir_renamed')
+// rmdir('dir_renamed');
+
+
+//new PDO(dns, username, password)
+
+$connection = new PDO("mysql:host=localhost;dbname=mysql_sandbox;charset=utf8","root", "");
+
+$result = $connection-> query("SELECT * FROM users");
+
+echo "<pre>";
+
+// print_r($result-> fetch());
+
+print_r($result-> fetch(pdo::FETCH_ASSOC));
 
 ?>
 
