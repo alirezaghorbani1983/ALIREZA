@@ -74,9 +74,15 @@ echo $result->rowCount() . " inserted";
 
 // echo $result->rowCount() . " inserted";
 
-$result = $connection->query("UPDATE users SET name  = 'matin' WHERE id = 10");
+// $result = $connection->query("UPDATE users SET name  = 'matin' WHERE id = 10");
 
-echo $result->rowCount() . " inserted";
+// echo $result->rowCount() . " inserted";
+
+$query = "UPDATE users SET name  = 'matin' WHERE id = 10";
+
+$result = $connection->query($query);
+
+echo $result->rowCount() . " updated";
 
 ?>
 
