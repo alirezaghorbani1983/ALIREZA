@@ -46,5 +46,12 @@ print_r($result-> fetch(pdo::FETCH_ASSOC));
 print_r($result-> fetch(pdo::FETCH_NUM));
 print_r($result-> fetch(pdo::FETCH_BOTH));
 
+print_r($result-> fetchAll());
+
+print_r($result-> fetchall(pdo::FETCH_ASSOC));
+
+print_r($result-> fetchall(pdo::FETCH_NUM));
+print_r($result-> fetchall(pdo::FETCH_BOTH));
+
 ?>
 
