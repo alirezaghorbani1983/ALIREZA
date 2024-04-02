@@ -25,13 +25,13 @@
 
     <body>
         <header class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
-            <div class="ms-auto">
-                <a href="index.html" class="fs-4 fw-medium link-body-emphasis text-decoration-none">sample.com</a>
-            </div>
             <nav class="d-inline-flex mt-2 mt-md-0 me-md-auto">
                 <a class="fw-bold me-3 py-2 link-body-emphasis text-decoration-none" href="#">Nature</a>
                 <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Tourism</a>
                 <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Technology</a>
                 <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Others</a>
             </nav>
+            <div class="ms-auto">
+                <a href="index.html" class="fs-4 fw-medium link-body-emphasis text-decoration-none">sample.com</a>
+            </div>
         </header>
