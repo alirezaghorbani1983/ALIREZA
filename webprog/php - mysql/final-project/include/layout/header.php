@@ -45,10 +45,11 @@ $categories= $db->query($query);
                     <a class="fw-bold me-3 py-2 link-body-emphasis text-decoration-none" href="#"><?php //echo $category['title'] ?></a>
             <?php //} ?> -->
 
-
+                <?php if($categories->rowCount() > 0) : ?>  
                 <?php foreach($categories as $category): ?>
                     <a class="fw-bold me-3 py-2 link-body-emphasis text-decoration-none" href="#"><?= $category['title'] ?></a>
                 <?php endforeach ?>
+                <?php endif ?>
             </nav>
             
             <a href="index.html" class="fs-4 fw-medium link-body-emphasis text-decoration-none">sample.com
