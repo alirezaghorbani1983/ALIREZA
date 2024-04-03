@@ -536,10 +536,28 @@
 
 //function expression
 
-console.log(add2(3, 6));
+// console.log(add2(3, 6));
 
-const add2 = function(x,y){
-    return x + y;
-}
+// const add2 = function(x,y){
+//     return x + y;
+// }
 
 // console.log(add2(3, 6));
+
+// function add(x, y){
+//     return x + y;
+// }
+
+// console.log(add(5, 6));
+
+// const add = (x, y) => {
+//     return x + y;
+// }
+
+// console.log(add(5, 6));
+
+
+const substract = (x, y) => x - y;
+
+
+console.log(substract(5, 7));
