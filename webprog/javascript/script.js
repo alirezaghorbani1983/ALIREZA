@@ -501,15 +501,35 @@ const x = 10;
 console.log(x, 'in global');
 
 function run(){
+    const x = 5;
     const y = 30;
-    console.log(y);
+    console.log(y + x);
 }
 
-console.log(y);
+// console.log(y);
 
 run();
 
 if(true){
-    console.log(x, 'in block');
+    const z = 30;
+    console.log(z);
 
 }
+
+console.log(z);
+
+function first(){
+    const x = 100;
+
+    function second(){
+        const y = 200;
+
+        console.log(x + y);
+    }
+
+    console.log(y);
+
+    second();
+}
+
+first();
