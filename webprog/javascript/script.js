@@ -496,40 +496,50 @@
 
 // window.alert('ali');
 
-const x = 10;
+// const x = 10;
 
-console.log(x, 'in global');
+// console.log(x, 'in global');
 
-function run(){
-    const x = 5;
-    const y = 30;
-    console.log(y + x);
+// function run(){
+//     const x = 5;
+//     const y = 30;
+//     console.log(y + x);
+// }
+
+// // console.log(y);
+
+// run();
+
+// if(true){
+//     const z = 30;
+//     console.log(z);
+
+// }
+
+// console.log(z);
+
+// function first(){
+//     const x = 100;
+
+//     function second(){
+//         const y = 200;
+
+//         console.log(x + y);
+//     }
+
+//     console.log(y);
+
+//     second();
+// }
+
+// first();
+
+//function expression
+
+console.log(add2(3, 6));
+
+const add2 = function(x,y){
+    return x + y;
 }
 
-// console.log(y);
-
-run();
-
-if(true){
-    const z = 30;
-    console.log(z);
-
-}
-
-console.log(z);
-
-function first(){
-    const x = 100;
-
-    function second(){
-        const y = 200;
-
-        console.log(x + y);
-    }
-
-    console.log(y);
-
-    second();
-}
-
-first();
+// console.log(add2(3, 6));
