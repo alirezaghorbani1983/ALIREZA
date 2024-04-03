@@ -479,17 +479,37 @@
 
 // console.log(obj);
 
-function add(x, y, z = 55){
-    return x + y + z;  
+// function add(x, y, z = 55){
+//     return x + y + z;  
+// }
+
+// const result = add(5, 9, 32);
+
+// console.log(result);
+
+
+// function sum(...numbers){
+//     return numbers;
+// }
+
+// console.log(sum(5, 4, 8, 7, 9, 3));
+
+// window.alert('ali');
+
+const x = 10;
+
+console.log(x, 'in global');
+
+function run(){
+    const y = 30;
+    console.log(y);
 }
 
-const result = add(5, 9, 32);
+console.log(y);
 
-console.log(result);
+run();
 
+if(true){
+    console.log(x, 'in block');
 
-function sum(...numbers){
-    return numbers;
 }
-
-console.log(sum(5, 4, 8, 7, 9, 3));
