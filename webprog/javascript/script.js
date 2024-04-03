@@ -429,25 +429,38 @@
 
 // console.log(user);
 
-const todo = {
-    id: 1,
-    title: 'Todo 1',
-    user: {
-        name : 'ali'
-    }
+// const todo = {
+//     id: 1,
+//     title: 'Todo 1',
+//     user: {
+//         name : 'ali'
+//     }
+// }
+
+// // const id = todo.id;
+
+// const {id: todoId, title, user: {name}} = todo;
+
+// // console.log(id, title, name);
+
+// console.log(todoId, title, name);
+
+// const numbers = [13, 24, 3, 4, 5];
+
+// const [first, second, ...other] = numbers;
+
+// console.log(first, second, other);
+
+const post ={
+    id: 1, 
+    title: 'Title post 1',
+    body: 'body post 1'
 }
 
-// const id = todo.id;
+console.log(post);
 
-const {id: todoId, title, user: {name}} = todo;
+//convert object to JSON
 
-// console.log(id, title, name);
+const str = JSON.stringify(post)
 
-console.log(todoId, title, name);
-
-const numbers = [13, 24, 3, 4, 5];
-
-const [first, second, ...other] = numbers;
-
-console.log(first, second, other);
-
+console.log(str);
