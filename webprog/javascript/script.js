@@ -557,7 +557,19 @@
 // console.log(add(5, 6));
 
 
-const substract = (x, y) => x - y;
+// const substract = (x, y) => x - y;
+
+// const double = x => x * 2;
+
+// console.log(double(2));
+
+const createObj = () => (
+    {
+        name : 'ali' ,
+        age : 25
+
+    }
+) 
 
 
-console.log(substract(5, 7));
+console.log(createObj);
