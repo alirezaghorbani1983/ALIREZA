@@ -376,38 +376,78 @@
 // console.log(z);
 
 
-function sum() {
-    let x = 100;
-    const y = 200;
-    var z = 300;
-    // console.log(x, 'in function');
-    console.log(x, y, z);
-}
+// function sum() {
+//     let x = 100;
+//     const y = 200;
+//     var z = 300;
+//     // console.log(x, 'in function');
+//     console.log(x, y, z);
+// }
 
-sum();
+// sum();
+
+// // console.log(z);
+
+// if(true) {
+//     let x = 100;
+//     const y = 200;
+//     var z = 300;
+
+//     console.log(x, y, z);
+// }
 
 // console.log(z);
 
-if(true) {
-    let x = 100;
-    const y = 200;
-    var z = 300;
+// function first(){
+//     const x = 100;
 
-    console.log(x, y, z);
-}
+//     function second(){
+//         const y = 200;
 
-console.log(z);
+//         console.log(x + y);
+//     }
 
-function first(){
-    const x = 100;
+//     second();
+// }
 
-    function second(){
-        const y = 200;
+// first();
 
-        console.log(x + y);
+
+//part 20  naming and destructuring
+
+// const firstName = "ali";
+
+// const lastName = "Ghorbani";
+// const age = 40;
+
+
+// const user = {
+//     firstName,
+//     lastName,
+//     age: age
+// }
+
+// console.log(user);
+
+const todo = {
+    id: 1,
+    title: 'Todo 1',
+    user: {
+        name : 'ali'
     }
-
-    second();
 }
 
-first();
+// const id = todo.id;
+
+const {id: todoId, title, user: {name}} = todo;
+
+// console.log(id, title, name);
+
+console.log(todoId, title, name);
+
+const numbers = [13, 24, 3, 4, 5];
+
+const [first, second, ...other] = numbers;
+
+console.log(first, second, other);
+
