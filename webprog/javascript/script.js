@@ -563,13 +563,19 @@
 
 // console.log(double(2));
 
-const createObj = () => (
-    {
-        name : 'ali' ,
-        age : 25
+// const createObj = () => (
+//     {
+//         name : 'ali' ,
+//         age : 25
 
-    }
-) 
+//     }
+// ) 
 
 
-console.log(createObj);
+// console.log(createObj);
+
+//immediatley invoked function expression - IIFE
+
+(function(){
+    console.log('IIFE');
+})();
