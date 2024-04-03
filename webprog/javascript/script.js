@@ -451,16 +451,30 @@
 
 // console.log(first, second, other);
 
-const post ={
+const posts =[
+    {
     id: 1, 
     title: 'Title post 1',
     body: 'body post 1'
-}
+    },
+    {
+        id: 2, 
+        title: 'Title post 2',
+        body: 'body post 2'
+    }
+]
 
-console.log(post);
+console.log(posts);
 
 //convert object to JSON
 
-const str = JSON.stringify(post)
+const str = JSON.stringify(posts);
+
+
+//convert JSON to object
 
 console.log(str);
+
+const obj = JSON.parse(str);
+
+console.log(obj);
