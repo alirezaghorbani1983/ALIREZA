@@ -607,23 +607,78 @@
 
 // session 29   switch command
 
-const x = 30;
+// const x = 30;
 
-switch(x) {
-    case 10:
-        console.log('x is 10');
-        break;
-    case 15:
-        console.log('x is 15');
-        break;
-    case 20:
-        console.log('x is 20');
-        break;
-    case 25:
-        console.log('x is 25');
-        break;
-    default:
-        console.log(`x is ${x}`);
-        break;
-}
+// switch(x) {
+//     case 10:
+//         console.log('x is 10');
+//         break;
+//     case 15:
+//         console.log('x is 15');
+//         break;
+//     case 20:
+//         console.log('x is 20');
+//         break;
+//     case 25:
+//         console.log('x is 25');
+//         break;
+//     default:
+//         console.log(`x is ${x}`);
+//         break;
+// }
+
+// const firstName = 'ali';
+
+// console.log(Boolean(firstName));
+
+// if(firstName){
+//     console.log(firstName);
+// }
+
+// const x = {};
+
+// if(x){
+//     console.log('this is truthy');
+// }else{
+//     console.log('this is falsy');
+// }
+
+// const user = {name: "ali"};
+// // const posts = [];
+
+// // console.log(Object.keys(user));
+
+// if(Object.keys(user).length){
+//     console.log('list user');
+// } else {
+//     console.log('No user');
+// }
+
+// console.log(20 > 10 && 10 > 30);
+
+// if(5 > 10 || 10 > 30 || 30 > 20) {
+//     console.log('if');
+// }else {
+//     console.log('else');
+// }
+
+// const a = true;
+
+// if(!a){
+//     console.log('if');
+// }else{
+//     console.log('else');
+// }
+
+let a;
+
+a = 10 && 20 && 0;
+
+console.log(a);
+
+let c;
+
+c = null ?? 10;
+
+console.log(c);
 
