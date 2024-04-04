@@ -670,15 +670,22 @@
 //     console.log('else');
 // }
 
-let a;
+// let a;
 
-a = 10 && 20 && 0;
+// a = 10 && 20 && 0;
 
-console.log(a);
+// console.log(a);
 
-let c;
+// let c;
 
-c = null ?? 10;
+// c = 0 ?? 10;
+
+// console.log(c);
+
+let c = null;
+
+c ??= 40;
 
 console.log(c);
+
 
