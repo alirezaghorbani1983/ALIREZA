@@ -576,6 +576,21 @@
 
 //immediatley invoked function expression - IIFE
 
-(function(){
-    console.log('IIFE');
-})();
+// (function(){
+//     console.log('IIFE');
+// })();
+
+if(true){
+    console.log('do');
+}
+
+const x = 10;
+const y = 5;
+
+if(x > y){
+    console.log(`${x} > ${y}`);
+}
+
+if(x == y) {
+    console.log(`${x} = ${y}`);
+}
