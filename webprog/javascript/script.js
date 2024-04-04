@@ -584,8 +584,8 @@
 //     console.log('do');
 // }
 
-const x = 10;
-const y = 10;
+// const x = 20;
+// const y = 20;
 
 // if(x == y) {
 //     console.log("if");
@@ -597,10 +597,33 @@ const y = 10;
 //     console.log('else');
 // }
 
-if (x == y){
-    console.log('IF');
+// if (x == y){
+//     console.log('IF');
 
-    if(x == 20){
-        console.log( 'X is 20');
-    }
+//     if(x == 20){
+//         console.log( 'X is 20');
+//     }
+// }
+
+// session 29   switch command
+
+const x = 30;
+
+switch(x) {
+    case 10:
+        console.log('x is 10');
+        break;
+    case 15:
+        console.log('x is 15');
+        break;
+    case 20:
+        console.log('x is 20');
+        break;
+    case 25:
+        console.log('x is 25');
+        break;
+    default:
+        console.log(`x is ${x}`);
+        break;
 }
+
