@@ -580,17 +580,27 @@
 //     console.log('IIFE');
 // })();
 
-if(true){
-    console.log('do');
-}
+// if(true){
+//     console.log('do');
+// }
 
 const x = 10;
-const y = 5;
+const y = 10;
 
-if(x > y){
-    console.log(`${x} > ${y}`);
-}
+// if(x == y) {
+//     console.log("if");
+// }else if (x > y){
+//     console.log("else if");
+// } else if (x < y){
+//     console.log("else if");
+// } else {
+//     console.log('else');
+// }
 
-if(x == y) {
-    console.log(`${x} = ${y}`);
+if (x == y){
+    console.log('IF');
+
+    if(x == 20){
+        console.log( 'X is 20');
+    }
 }
