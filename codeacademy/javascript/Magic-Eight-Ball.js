@@ -1,5 +1,5 @@
 let userName = 'Alireza';
-userName ? console.log('Hello, Jane!') : console.log('Hello!');
+userName ? console.log(`Hello, ${userName}!`) : console.log('Hello!');
 
 let userQuestion = "Which ball?";
 
