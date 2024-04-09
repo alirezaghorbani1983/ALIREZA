@@ -1,3 +1,4 @@
+// is before defined first line code
 let raceNumber = Math.floor(Math.random() * 1000);
 
 let earlyRegister = true;
