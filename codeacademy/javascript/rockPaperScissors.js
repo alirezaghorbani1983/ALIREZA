@@ -7,14 +7,11 @@ const getUserChoice = userInput => {
       console.log('Invalid choice. Please choose rock, paper, or scissors.');
     }
   };
-
-  //console.log(getUserChoice('ttt'));
-
-  //Function to get the computer's choice
-
-  const getComputerChoise = () => {
-    const randomNumber = Math.floor(Math.random()* 3);
-    switch(randomNumber){
+  
+  // Function to get the computer's choice
+  const getComputerChoice = () => {
+    const randomNumber = Math.floor(Math.random() * 3);
+    switch(randomNumber) {
       case 0:
         return 'rock';
       case 1:
@@ -23,21 +20,29 @@ const getUserChoice = userInput => {
         return 'scissors';
     }
   };
-
-  // determine the winner 
   
-const determineWinner = (userChoice, computerChoice) => {
-   if (userChoice === computerChoice) {
-    return 'It\'s a tie!'; // game is tie = resuluts are equal
-  } else if (userChoice === 'rock') {
-    return computerChoice === 'scissors' ? 'You win!' : 'Computer wins!';
-  } else if (userChoice === 'paper') {
-    return computerChoice === 'rock' ? 'You win!' : 'Computer wins!';
-  } else if (userChoice === 'scissors') {
-    return computerChoice === 'paper' ? 'You win!' : 'Computer wins!';
-  }
-};
-
-console.log(determineWinner('rock', 'rock'));
-console.log(determineWinner('paper', 'rock'));
-console.log(determineWinner('rock', 'scissors'));
+  // Function to determine the winner
+  const determineWinner = (userChoice, computerChoice) => {
+    if (userChoice === computerChoice) {
+      return 'It\'s a tie!';
+    } else if (userChoice === 'rock') {
+      return computerChoice === 'scissors' ? 'You win!' : 'Computer wins!';
+    } else if (userChoice === 'paper') {
+      return computerChoice === 'rock' ? 'You win!' : 'Computer wins!';
+    } else if (userChoice === 'scissors') {
+      return computerChoice === 'paper' ? 'You win!' : 'Computer wins!';
+    }
+  };
+  
+  // Function to start the program and display the results
+  const playGame = () => {
+    const userChoice = getUserChoice('rock'); // Replace 'rock' with prompt or input from user
+    const computerChoice = getComputerChoice();
+    console.log('Your choice: ' + userChoice);
+    console.log('Computer\'s choice: ' + computerChoice);
+    console.log(determineWinner(userChoice, computerChoice));
+  };
+  
+  // Call the playGame function to start the game
+  playGame();
+  
