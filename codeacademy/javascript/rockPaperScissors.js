@@ -23,3 +23,21 @@ const getUserChoice = userInput => {
         return 'scissors';
     }
   };
+
+  // determine the winner 
+  
+const determineWinner = (userChoice, computerChoice) => {
+   if (userChoice === computerChoice) {
+    return 'It\'s a tie!'; // game is tie = resuluts are equal
+  } else if (userChoice === 'rock') {
+    return computerChoice === 'scissors' ? 'You win!' : 'Computer wins!';
+  } else if (userChoice === 'paper') {
+    return computerChoice === 'rock' ? 'You win!' : 'Computer wins!';
+  } else if (userChoice === 'scissors') {
+    return computerChoice === 'paper' ? 'You win!' : 'Computer wins!';
+  }
+};
+
+console.log(determineWinner('rock', 'rock'));
+console.log(determineWinner('paper', 'rock'));
+console.log(determineWinner('rock', 'scissors'));
