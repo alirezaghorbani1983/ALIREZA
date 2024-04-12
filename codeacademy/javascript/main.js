@@ -84,14 +84,27 @@
 
 //block scope
 
-const logVisibleLightWaves = () => {
-    const lightWaves = 'Moonlight';
-    console.log(lightWaves);
+// const logVisibleLightWaves = () => {
+//     const lightWaves = 'Moonlight';
+//     console.log(lightWaves);
   
-  };
+//   };
   
-  logVisibleLightWaves();
+//   logVisibleLightWaves();
   
 //   console.log(lightWaves);
+
+// scope poluution - bad practice
+const satellite = 'The Moon';
+const galaxy = 'The Milky Way';
+let stars = 'North Star';
+
+const callMyNightSky = () => {
+  stars = 'Sirius';
+	return 'Night Sky: ' + satellite + ', ' + stars + ', ' + galaxy;
+};
+
+console.log(callMyNightSky());
+console.log(stars);
 
   
