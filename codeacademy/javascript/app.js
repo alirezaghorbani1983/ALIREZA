@@ -174,3 +174,10 @@ if (season === 'spring') {
 //         console.log('No medal awarded.')
 //         break;
 // }
+
+// Write your function here:
+const greetWorld = () => {
+  return 'Hello, World!';
+}
+
+console.log(greetWorld());
