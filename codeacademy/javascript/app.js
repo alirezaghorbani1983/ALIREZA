@@ -192,7 +192,27 @@ if (season === 'spring') {
 
 // console.log(canIVote(22));
 
-// As a ternary: 
-const agreeOrDisagree = (first, second) => (first === second) ? 'You agree!' : 'You disagree!';
+// As a ternary:
+
+// const agreeOrDisagree = (first, second) => (first === second) ? 'You agree!' : 'You disagree!';
+
+const lifePhase = age => {
+  switch (true) {
+    case age >= 0 && age <= 3:
+      return 'baby';
+    case age >= 4 && age <= 12:
+      return 'child';
+    case age >= 13 && age <= 19:
+      return 'teen';
+    case age >= 20 && age <= 64:
+      return 'adult';
+    case age >= 65 && age <= 140:
+      return 'senior citizen';
+    default:
+      return 'This is not a valid age';
+  }
+}
+
+console.log(lifePhase(6));
 
 
