@@ -182,12 +182,17 @@ if (season === 'spring') {
 
 // console.log(greetWorld());
 
-const canIVote = age => {
-  if (age >= 18) {
-      return true
-  } else {
-      return false
-  }
-}
+// const canIVote = age => {
+//   if (age >= 18) {
+//       return true
+//   } else {
+//       return false
+//   }
+// }
 
-console.log(canIVote(22));
+// console.log(canIVote(22));
+
+// As a ternary: 
+const agreeOrDisagree = (first, second) => (first === second) ? 'You agree!' : 'You disagree!';
+
+
