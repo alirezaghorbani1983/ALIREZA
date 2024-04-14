@@ -196,23 +196,47 @@ if (season === 'spring') {
 
 // const agreeOrDisagree = (first, second) => (first === second) ? 'You agree!' : 'You disagree!';
 
-const lifePhase = age => {
-  switch (true) {
-    case age >= 0 && age <= 3:
-      return 'baby';
-    case age >= 4 && age <= 12:
-      return 'child';
-    case age >= 13 && age <= 19:
-      return 'teen';
-    case age >= 20 && age <= 64:
-      return 'adult';
-    case age >= 65 && age <= 140:
-      return 'senior citizen';
-    default:
-      return 'This is not a valid age';
+// const lifePhase = age => {
+//   switch (true) {
+//     case age >= 0 && age <= 3:
+//       return 'baby';
+//     case age >= 4 && age <= 12:
+//       return 'child';
+//     case age >= 13 && age <= 19:
+//       return 'teen';
+//     case age >= 20 && age <= 64:
+//       return 'adult';
+//     case age >= 65 && age <= 140:
+//       return 'senior citizen';
+//     default:
+//       return 'This is not a valid age';
+//   }
+// }
+
+// console.log(lifePhase(6));
+
+const finalGrade = (midterm, final, homework) => {
+  if ((midterm < 0 || midterm > 100) || (final < 0 || final > 100) || (homework < 0 || homework > 100)) {
+      return 'You have entered an invalid grade.'
+  }
+  let average = (midterm + final + homework) / 3;
+  if (average < 60) {
+      return 'F';
+  }
+  else if (average < 70) {
+      return 'D';
+  }
+  else if (average < 80) {
+      return 'C';
+  }
+  else if (average < 90) {
+      return 'B';
+  } else {
+      return 'A';
   }
 }
 
-console.log(lifePhase(6));
+console.log(finalGrade(34, 68, 81));
+
 
 
