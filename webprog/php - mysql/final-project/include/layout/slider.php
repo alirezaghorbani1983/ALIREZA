@@ -1,13 +1,27 @@
 <?php
 $sliders = $db->query("SELECT * FROM posts_slider");
+// $sliders = $db->query("SELECT * FROM posts_slider");
 
-foreach($sliders as $slider){
-    $postId = $slider['post_id'];
-    // Concatenate $postId into the SQL query string
-    $post = $db->query("SELECT * FROM posts WHERE id = $postId");
+// echo "<pre>";
+// print_r($sliders->fetchAll());
 
-    echo "<pre>";
-    print_r($post->fetch());
+// foreach($sliders as $slider){
+//     // print_r($slider['post_id']);
+//     $postId = $slider['post_id'];
+//     $post = $db->query('SELECT * FROM posts WHERE id = $postId');
+
+//     echo "<pre>";
+//     print_r($post-> fetch());
+
+// }
+
+// foreach($sliders as $slider){
+//     $postId = $slider['post_id'];
+//     $post = $db->query("SELECT * FROM posts WHERE id = $postId");
+
+//     echo "<pre>";
+//     print_r($post->fetch());
+// }
 
 ?>
 
