@@ -1,5 +1,13 @@
 <?php
+$sliders = $db->query("SELECT * FROM posts_slider");
 
+foreach($sliders as $slider){
+    $postId = $slider['post_id'];
+    // Concatenate $postId into the SQL query string
+    $post = $db->query("SELECT * FROM posts WHERE id = $postId");
+
+    echo "<pre>";
+    print_r($post->fetch());
 
 ?>
 
