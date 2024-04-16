@@ -2,17 +2,19 @@
 
 ?>
 
-<div class="col-lg-4">
+
+                        <!-- Sidebar Section -->
+                        <div class="col-lg-4">
                             <!-- Sesrch Section -->
                             <div class="card">
                                 <div class="card-body">
-                                    <p class="fw-bold fs-6">Search in weblog</p>
+                                    <p class="fw-bold fs-6">جستجو در وبلاگ</p>
                                     <form action="search.html">
                                         <div class="input-group mb-3">
                                             <input
                                                 type="text"
                                                 class="form-control"
-                                                placeholder="search ..."
+                                                placeholder="جستجو ..."
                                             />
                                             <button
                                                 class="btn btn-secondary"
@@ -27,34 +29,34 @@
 
                             <!-- Categories Section -->
                             <div class="card mt-4">
-                                <div class="fw-bold fs-6 card-header">Categories</div>
+                                <div class="fw-bold fs-6 card-header">دسته بندی ها</div>
                                 <ul class="list-group list-group-flush p-0">
                                     <li class="list-group-item">
                                         <a
                                             class="link-body-emphasis text-decoration-none"
                                             href="#"
-                                            >Nature</a
+                                            >طبیعت</a
                                         >
                                     </li>
                                     <li class="list-group-item">
                                         <a
                                             class="link-body-emphasis text-decoration-none"
                                             href="#"
-                                            >tourism</a
+                                            >گردشگری</a
                                         >
                                     </li>
                                     <li class="list-group-item">
                                         <a
                                             class="link-body-emphasis text-decoration-none"
                                             href="#"
-                                            >Technology</a
+                                            >تکنولوژی</a
                                         >
                                     </li>
                                     <li class="list-group-item">
                                         <a
                                             class="link-body-emphasis text-decoration-none"
                                             href="#"
-                                            >Others</a
+                                            >متفرقه</a
                                         >
                                     </li>
                                 </ul>
@@ -63,12 +65,12 @@
                             <!-- Subscribue Section -->
                             <div class="card mt-4">
                                 <div class="card-body">
-                                    <p class="fw-bold fs-6">Subscribe to Newsletter</p>
+                                    <p class="fw-bold fs-6">عضویت در خبرنامه</p>
 
                                     <form>
                                         <div class="mb-3">
                                             <label class="form-label"
-                                                >name</label
+                                                >نام</label
                                             >
                                             <input
                                                 type="text"
@@ -77,7 +79,7 @@
                                         </div>
                                         <div class="mb-3">
                                             <label class="form-label"
-                                                >Email</label
+                                                >ایمیل</label
                                             >
                                             <input
                                                 type="email"
@@ -89,7 +91,7 @@
                                                 type="submit"
                                                 class="btn btn-secondary"
                                             >
-                                                Send
+                                                ارسال
                                             </button>
                                         </div>
                                     </form>
@@ -99,8 +101,15 @@
                             <!-- About Section -->
                             <div class="card mt-4">
                                 <div class="card-body">
-                                    <p class="fw-bold fs-6"> About us</p>
-                                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget placerat justo. Curabitur hendrerit turpis id ultricies varius. Aliquam erat volutpat. Mauris eget varius nulla. Sed pretium pretium tortor. Phasellus semper leo eu ex vehicula, sed feugiat quam vehicula. Vivamus eget magna nec ligula fermentum rhoncus. Suspendisse potenti. Sed eleifend magna et turpis pellentesque, eget elementum libero dignissim. Sed ut libero sed nisi congue feugiat. Sed vitae congue purus. Cras euismod nisi id feugiat finibus. Nulla facilisi. Donec id consequat quam. Sed bibendum scelerisque nunc, nec vulputate magna fringilla nec. Donec scelerisque posuere ex id ullamcorper. Sed ut justo in quam iaculis euismod. Phasellus posuere odio in malesuada consectetur. Curabitur et est at eros lobortis condimentum. Sed faucibus sollicitudin neque, id vestibulum eros auctor at. Nam sed ultricies ex. 
+                                    <p class="fw-bold fs-6">درباره ما</p>
+                                    <p class="text-justify">
+                                        لورم ایپسوم متن ساختگی با تولید سادگی
+                                        نامفهوم از صنعت چاپ و با استفاده از
+                                        طراحان گرافیک است. چاپگرها و متون بلکه
+                                        روزنامه و مجله در ستون و سطرآنچنان که
+                                        لازم است و برای شرایط فعلی تکنولوژی مورد
+                                        نیاز و کاربردهای متنوع با هدف بهبود
+                                        ابزارهای کاربردی می باشد.
                                     </p>
                                 </div>
                             </div>
