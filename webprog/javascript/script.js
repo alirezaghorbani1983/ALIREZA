@@ -688,15 +688,15 @@
 
 // console.log(c);
 
-const x = 15;
+const x = 10;
 const y = 5;
 
-if(x === y) {
-    const z = 6
-    console.log(`${x} = ${y}`);
-    
-}else{
-    console.log(z);
+if(x === y) {   
+    console.log('if');    
+}else if(x > y) {
+    console.log( 'Else if');
+} else{
     console.log('else');
 }
+
 
