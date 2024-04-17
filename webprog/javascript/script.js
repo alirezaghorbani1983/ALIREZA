@@ -688,15 +688,31 @@
 
 // console.log(c);
 
-const x = 10;
-const y = 5;
+// const x = 10;
+// const y = 10;
 
-if(x === y) {   
-    console.log('if');    
-}else if(x > y) {
-    console.log( 'Else if');
-} else{
-    console.log('else');
+// if(x === y) {   
+//     console.log('If'); 
+    
+//     if(x == 10){
+//         console.log('x is 20');
+//     }
+// }
+
+const x =20;
+
+switch(x) {
+    case 10:
+        console.log('x is 10');
+        break;
+    case 15:
+        console.log('x is 15');
+        break;
+    case 20:
+        console.log('x is 20');
+        break;
+    default:
+        console.log(`x is ${x}`);
+        break;
 }
-
 
