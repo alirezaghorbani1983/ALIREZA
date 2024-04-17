@@ -682,10 +682,21 @@
 
 // console.log(c);
 
-let c = null;
+// let c = null;
 
-c ??= 40;
+// c ??= 40;
 
-console.log(c);
+// console.log(c);
 
+const x = 15;
+const y = 5;
+
+if(x === y) {
+    const z = 6
+    console.log(`${x} = ${y}`);
+    
+}else{
+    console.log(z);
+    console.log('else');
+}
 
