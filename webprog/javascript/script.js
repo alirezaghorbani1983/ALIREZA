@@ -745,10 +745,11 @@
 // const catVote = age >= 18 ? true : false;
 // console.log((catVote));
 
-for(let i = 5; i <= 10; i++){
-    if(i === 7){
-        console.log('7');
+for(let i = 0; i <= 10; i++){
+    if(i === 5){
+        console.log('skipping 5 ...');
+        continue;
     }
-    console.log(`Number ${i}`);
+    console.log(`Number ${i}`); 
 }
 
