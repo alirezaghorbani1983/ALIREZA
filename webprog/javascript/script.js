@@ -720,10 +720,24 @@
 
 // console.log(Boolean(firstName));
 
-const user = {name : 'ali'};
+// const user = {name : 'ali'};
 
-if(user) {
-    console.log('list user');
-}else {
-    console.log('no user');
+// if(user) {
+//     console.log('list user');
+// }else {
+//     console.log('no user');
+// }
+
+//ternary operators
+
+const age = 19;
+
+if(age >= 10){
+    console.log('you can vote');
+} else {
+    console.log('you can not vote');
 }
+
+//or ternary
+
+age > = 18 ? console.log('you can vote') : console.log('you can not vote')
