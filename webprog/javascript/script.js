@@ -730,7 +730,7 @@
 
 //ternary operators
 
-const age = 3;
+// const age = 3;
 
 // if(age >= 10){
 //     console.log('you can vote');
@@ -740,7 +740,15 @@ const age = 3;
 
 //or ternary
 
-age >= 18 ? (alert('you can vote'), console.log('you can vote')) : (alert('you can not vote'), console.log('you can not vote'));
+// age >= 18 ? (alert('you can vote'), console.log('you can vote')) : (alert('you can not vote'), console.log('you can not vote'));
 
 // const catVote = age >= 18 ? true : false;
 // console.log((catVote));
+
+for(let i = 5; i <= 10; i++){
+    if(i === 7){
+        console.log('7');
+    }
+    console.log(`Number ${i}`);
+}
+
