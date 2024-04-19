@@ -720,10 +720,10 @@
 
 // console.log(Boolean(firstName));
 
-const x = [];
+const user = {name : 'ali'};
 
-if(x) {
-    console.log('this is truthy');
+if(user) {
+    console.log('list user');
 }else {
-    console.log('this is falsy');
+    console.log('no user');
 }
