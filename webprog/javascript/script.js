@@ -796,13 +796,38 @@
 
 // for in good for Object
 
-const colorObj = {
-    color1: 'red',
-    color2: 'green',
-    color3: 'yellow',
-    color4: 'voilet',
-}
+// const colorObj = {
+//     color1: 'red',
+//     color2: 'green',
+//     color3: 'yellow',
+//     color4: 'voilet',
+// }
 
-for(const key in colorObj){
-    console.log(key, colorObj[key]);
+// for(const key in colorObj){
+//     console.log(key, colorObj[key]);
+// }
+
+// const colorArr = ['red', 'blue', 'green'];
+
+// for(const index in colorArr){
+//     console.log(index, colorArr[index]);
+// }
+
+//foreach method
+
+const numbers = [1, 2, 3, 4, 5];
+
+// console.log((numbers));
+
+//callback function or anonym function
+// numbers.forEach(function (number) {
+//     console.log(number);
+// }
+// );
+
+numbers.forEach((number) => console.log(number));
+
+numbers.forEach(function (number, index, arraaaay) {
+    console.log(number, index, arraaaay);
 }
+);
