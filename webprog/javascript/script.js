@@ -843,6 +843,19 @@
 
 const numbers = [1, 2, 3, 4, 5];
 
-const result = numbers.filter((number) => number > 3);
+// const result = numbers.filter((number) => number > 3);
+
+// console.log(result);
+
+// const evenNumbers = numbers.filter(function(number) {
+//     return number % 2 == 1;
+// });
+
+// console.log(evenNumbers);
+
+const result = numbers.every((number) =>{
+    return number > 3;
+})
 
 console.log(result);
+
