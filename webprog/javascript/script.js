@@ -880,10 +880,29 @@
 //     }
 // })
 // console.log(result);
-const numbers = [1, 2, 3, 4, 5, 6, 7];
+// const numbers = [1, 2, 3, 4, 5, 6, 7];
 
-const sum = numbers.reduce((previousValue, currentValue) => {
-    return previousValue + currentValue
-}, 0);
+// const sum = numbers.reduce((previousValue, currentValue) => {
+//     return previousValue + currentValue
+// }, 0);
 
-console.log(sum);
+// console.log(sum);
+
+const cart =[{
+    id : 1,
+    name: 'product 1',
+    price : 120
+}, {
+    id : 2,
+    name: 'product 2',
+    price : 150
+},{
+    id : 1,
+    name: 'product 3',
+    price : 90
+
+}]
+
+const total = cart.reduce((preValue, product)=> preValue + product.price, 0);
+
+console.log(total);
