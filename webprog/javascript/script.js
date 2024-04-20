@@ -841,7 +841,7 @@
 
 // users.forEach((user) => console.log(user.name));
 
-const numbers = [1, 2, 3, 4, 5];
+// const numbers = [1, 2, 3, 4, 5];
 
 // const result = numbers.filter((number) => number > 3);
 
@@ -853,9 +853,24 @@ const numbers = [1, 2, 3, 4, 5];
 
 // console.log(evenNumbers);
 
-const result = numbers.every((number) =>{
-    return number > 3;
-})
+// const result = numbers.every((number) =>{
+//     return number > 3;
+// })
+
+// console.log(result);
+
+const numbers = [1, 2, 3, 4, 5, 6, 70];
+
+// const result = numbers.map((number) => number*2);
+
+// console.log(result);
+
+// const result = [];
+
+// numbers.forEach((number) => {
+//     result.push(number*2);
+// });
+
+const result = numbers.filter((number)=> number % 2).map((item) => item*2 );
 
 console.log(result);
-
