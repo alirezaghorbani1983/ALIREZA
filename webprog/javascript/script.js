@@ -859,7 +859,7 @@
 
 // console.log(result);
 
-const numbers = [1, 2, 3, 4, 5, 6, 70];
+// const numbers = [1, 2, 3, 4, 5, 6, 70];
 
 // const result = numbers.map((number) => number*2);
 
@@ -871,6 +871,19 @@ const numbers = [1, 2, 3, 4, 5, 6, 70];
 //     result.push(number*2);
 // });
 
-const result = numbers.filter((number)=> number % 2).map((item) => item*2 );
+// const result = numbers.filter((number)=> number % 2).map((item) => item*2 );
+// const users = [{name : 'ali'}, {name : 'reza'}, {name : 'philip'}];
 
-console.log(result);
+// const result = users.map((user) => {
+//     return {
+//         name: `firstname: ${user.name}`
+//     }
+// })
+// console.log(result);
+const numbers = [1, 2, 3, 4, 5, 6, 7];
+
+const sum = numbers.reduce((previousValue, currentValue) => {
+    return previousValue + currentValue
+}, 0);
+
+console.log(sum);
