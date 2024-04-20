@@ -815,7 +815,7 @@
 
 //foreach method
 
-const numbers = [1, 2, 3, 4, 5];
+
 
 // console.log((numbers));
 
@@ -825,9 +825,24 @@ const numbers = [1, 2, 3, 4, 5];
 // }
 // );
 
-numbers.forEach((number) => console.log(number));
+// numbers.forEach((number) => console.log(number));
 
-numbers.forEach(function (number, index, arraaaay) {
-    console.log(number, index, arraaaay);
-}
-);
+// numbers.forEach((number, index, arraaaay) => {console.log(number, index, arraaaay);
+// }
+// );
+
+// function logNumber (number){
+//     console.log(number);
+// }
+
+// numbers.forEach(logNumber)
+
+// const users = [{name: 'ali'}, {name: 'reza'}, {name: 'sara'} ];
+
+// users.forEach((user) => console.log(user.name));
+
+const numbers = [1, 2, 3, 4, 5];
+
+const result = numbers.filter((number) => number > 3);
+
+console.log(result);
