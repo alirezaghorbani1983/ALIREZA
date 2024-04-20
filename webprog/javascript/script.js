@@ -773,17 +773,36 @@
 
 // for of good voor arrays
 
-const items = ['ali', 'reza', 'sara'];
+// const items = ['ali', 'reza', 'sara'];
 
 // for(i = 0; i < items.length; i++){
 //     console.log(items[i]);
 // }
 
-for(const name of items){
-    console.log(name);
-}
-const users = [{name: 'ali'}, {name: 'reza'}, {name : 'sara'}];
+// for(const name of items){
+//     console.log(name);
+// }
+// const users = [{name: 'ali'}, {name: 'reza'}, {name : 'sara'}];
 
-for (const user of users){
-    console.log(user.name);
+// for (const user of users){
+//     console.log(user.name);
+// }
+
+// const str = 'welkome';
+
+// for(const letter of str){
+//     console.log(letter);
+// }
+
+// for in good for Object
+
+const colorObj = {
+    color1: 'red',
+    color2: 'green',
+    color3: 'yellow',
+    color4: 'voilet',
+}
+
+for(const key in colorObj){
+    console.log(key, colorObj[key]);
 }
