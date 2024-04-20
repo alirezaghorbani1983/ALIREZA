@@ -745,11 +745,25 @@
 // const catVote = age >= 18 ? true : false;
 // console.log((catVote));
 
-for(let i = 0; i <= 10; i++){
-    if(i === 5){
-        console.log('skipping 5 ...');
-        continue;
+// for(let i = 0; i <= 10; i++){
+//     if(i === 5){
+//         console.log('skipping 5 ...');
+//         continue;
+//     }
+//     console.log(`Number ${i}`); 
+// }
+
+let i = 0;
+
+while (i <= 20) {
+    console.log(`Number ${i}`);
+    
+    let j = 0;
+    while(j <= 5){
+        console.log(`${i} - ${j}`);
+        j++
     }
-    console.log(`Number ${i}`); 
+
+    i++;
 }
 
