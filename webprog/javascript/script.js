@@ -753,17 +753,37 @@
 //     console.log(`Number ${i}`); 
 // }
 
-let i = 0;
+// let i = 11;
 
-while (i <= 20) {
-    console.log(`Number ${i}`);
+// while (i <= 20) {
+//     console.log(`Number ${i}`);
     
-    let j = 0;
-    while(j <= 5){
-        console.log(`${i} - ${j}`);
-        j++
-    }
+//     let j = 0;
+//     while(j <= 5){
+//         console.log(`${i} - ${j}`);
+//         j++
+//     }
 
-    i++;
+//     i++;
+// }
+
+// do {
+//     console.log(`Number ${i}`);
+// } while(i <= 10);
+
+// for of good voor arrays
+
+const items = ['ali', 'reza', 'sara'];
+
+// for(i = 0; i < items.length; i++){
+//     console.log(items[i]);
+// }
+
+for(const name of items){
+    console.log(name);
 }
+const users = [{name: 'ali'}, {name: 'reza'}, {name : 'sara'}];
 
+for (const user of users){
+    console.log(user.name);
+}
