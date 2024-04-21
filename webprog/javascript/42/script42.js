@@ -10,7 +10,7 @@
 
 // document.body.innerHTML = "<h1> website </h1>";
 
-let output;
+// let output;
 
 // output = document.all;
 // output = document.all[1];
@@ -41,10 +41,23 @@ let output;
 //     console.log(item);
 // });
 
-const links = Array.from(document.links);
-links.forEach((item) => {
-        console.log(item);
-});
-//length <a> in console means we have one a tag in our page
+// const links = Array.from(document.links);
+// links.forEach((item) => {
+//         console.log(item);
+// });
+// //length <a> in console means we have one a tag in our page
 
-console.log(links);
+// console.log(links);
+
+// single elemet select
+
+let output;
+
+output = document.getElementById('title-id').id;
+
+output = document.getElementById('title-id').classList;
+
+// output = document.getElementById('title-id').className;
+
+
+console.log(output);
