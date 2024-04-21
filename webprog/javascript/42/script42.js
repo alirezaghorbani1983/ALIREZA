@@ -51,13 +51,34 @@
 
 // single elemet select
 
-let output;
+// let output;
+// output = document.getElementById('title-id');
 
-output = document.getElementById('title-id').id;
+// output = document.getElementById('title-id').id;
 
-output = document.getElementById('title-id').classList;
+// output = document.getElementById('title-id').classList;
 
-// output = document.getElementById('title-id').className;
+// document.getElementById('title-id').className = 'new-class';
 
 
-console.log(output);
+// output = document.getElementById('title-id').getAttribute('id');
+// output = document.getElementById('title-id').getAttribute('class');
+
+// document.getElementById('title-id').setAttribute('class', 'new-class');
+
+// document.getElementById('title-id').setAttribute('title', 'new-title');
+// // document.getElementById('title-id').setAttribute('id', 'new-id-');
+
+// console.log(output);
+
+const title = document.getElementById('title-id');
+
+// title.textContent = 'hello world';
+
+// title.innerText = 'hello world';
+
+// title.innerHTML = '<i> web prog </i>';
+
+title.style.color = 'red';
+
+console.log(title);
