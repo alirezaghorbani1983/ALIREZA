@@ -23,6 +23,14 @@ let output;
 // als we gebruik document.URl en we zijn op server, zullen we domein ontvangen
 // output = document.URL;
 
-output = document.body.children[0];
+// output = document.body.children[0].id;
+
+// output = document.body.children[0].classList;
+
+document.body.children[0].className = 'new-class';
+
+output = document.body.children[0].classList;
+
+// is different in source code and element
 
 console.log(output);
