@@ -27,10 +27,24 @@ let output;
 
 // output = document.body.children[0].classList;
 
-document.body.children[0].className = 'new-class';
+// document.body.children[0].className = 'new-class';
 
-output = document.body.children[0].classList;
+// output = document.body.children[0].classList;
 
 // is different in source code and element
 
-console.log(output);
+// output = document.links[0].href;
+
+// document.links[0].href = "https://google.com";
+
+// document.links.forEach((item) => {
+//     console.log(item);
+// });
+
+const links = Array.from(document.links);
+links.forEach((item) => {
+        console.log(item);
+});
+//length <a> in console means we have one a tag in our page
+
+console.log(links);
