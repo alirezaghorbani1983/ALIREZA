@@ -82,7 +82,7 @@
 // title.style.color = 'red';
 // title.style.backgroundColor = 'yellow';
 // title.style.padding = '15px';
-let output;
+// let output;
 
 // output = document.querySelector('body h1');
 
@@ -92,8 +92,22 @@ let output;
 // output = document.querySelector('li:last-child');
 // output = document.querySelector('li:first-child');
 
-output = document.querySelector('li:nth-child(3)');
+// output = document.querySelector('li:nth-child(3)');
 
 // console.log(output, document.getElementById('title-id'));
 
-console.log(output);
+// console.log(output);
+
+// const list = document.querySelector('ul');
+
+// console.log(list.querySelector('li'));
+
+const listItems = document.querySelectorAll('li');
+
+// listItems[1].style.color = 'blue';
+// console.log(listItems[1].innerText);
+listItems.forEach(item => {
+    item.style.color = 'green'
+})
+
+console.log(listItems);
