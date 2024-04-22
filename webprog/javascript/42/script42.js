@@ -71,7 +71,7 @@
 
 // console.log(output);
 
-const title = document.getElementById('title-id');
+// const title = document.getElementById('title-id');
 
 // title.textContent = 'hello world';
 
@@ -79,6 +79,21 @@ const title = document.getElementById('title-id');
 
 // title.innerHTML = '<i> web prog </i>';
 
-title.style.color = 'red';
+// title.style.color = 'red';
+// title.style.backgroundColor = 'yellow';
+// title.style.padding = '15px';
+let output;
 
-console.log(title);
+// output = document.querySelector('body h1');
+
+// output = document.querySelector('title-id');
+// output = document.querySelector('input[type=text]');
+
+// output = document.querySelector('li:last-child');
+// output = document.querySelector('li:first-child');
+
+output = document.querySelector('li:nth-child(3)');
+
+// console.log(output, document.getElementById('title-id'));
+
+console.log(output);
