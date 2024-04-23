@@ -106,8 +106,16 @@ const listItems = document.querySelectorAll('li');
 
 // listItems[1].style.color = 'blue';
 // console.log(listItems[1].innerText);
-listItems.forEach(item => {
-    item.style.color = 'green'
+listItems.forEach((item, index) => {
+    item.style.color = 'green';
+
+    if(index === 2){
+        item.innerText = 'Alireza';
+    }
 })
 
 console.log(listItems);
+
+const listItems2 = document.getElementsByClassName('items');
+
+console.log(listItems2[0]);
