@@ -102,20 +102,33 @@
 
 // console.log(list.querySelector('li'));
 
-const listItems = document.querySelectorAll('li');
+// const listItems = document.querySelectorAll('li');
 
-// listItems[1].style.color = 'blue';
-// console.log(listItems[1].innerText);
-listItems.forEach((item, index) => {
-    item.style.color = 'green';
+// // listItems[1].style.color = 'blue';
+// // console.log(listItems[1].innerText);
+// listItems.forEach((item, index) => {
+//     item.style.color = 'green';
 
-    if(index === 2){
-        item.innerText = 'Alireza';
-    }
-})
+//     if(index === 2){
+//         item.innerText = 'Alireza';
+//     }
+// })
 
-console.log(listItems);
+// console.log(listItems);
 
-const listItems2 = document.getElementsByClassName('items');
+// const listItems2 = document.getElementsByClassName('items');
 
-console.log(listItems2[0]);
+// const listItems2Array = Array.from(listItems2);
+
+// listItems2Array.forEach((item, index) => {
+//     console.log(item);
+// });
+
+
+// console.log(listItems2[0]);
+
+// const listItems3 = document.getElementsByTagName('li');
+
+// console.log(listItems3);
+
+create
