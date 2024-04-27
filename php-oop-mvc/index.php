@@ -78,9 +78,25 @@
 
 // echo $myCar->getSpeed();
 
+// Class Car
+// {
+//     private $speed;
+
+//     public function getSpeed()
+//     {
+//         return $this ->speed;
+//     }
+// }
+
+// $myCar = new Car();
+
+// $myCar->speed = 100;
+
+// echo $myCar->getSpeed();
+
 Class Car
 {
-    private $speed;
+    public $speed;
 
     public function getSpeed()
     {
@@ -93,3 +109,4 @@ $myCar = new Car();
 $myCar->speed = 100;
 
 echo $myCar->getSpeed();
+
