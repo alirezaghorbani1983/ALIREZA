@@ -51,11 +51,45 @@
 
 //static property
 
-class Car{
-    public $model;
-    public static $numberSold = 0;
+// class Car{
+//     public $model;
+//     public static $numberSold = 0;
+// }
+
+// //Get static property
+
+// echo CAR::$numberSold;
+
+// Number Visibility => public, private , protected
+
+// Class Car
+// {
+//     public $speed;
+
+//     public function getSpeed()
+//     {
+//         return $this ->speed;
+//     }
+// }
+
+// $myCar = new Car();
+
+// $myCar->speed = 100;
+
+// echo $myCar->getSpeed();
+
+Class Car
+{
+    private $speed;
+
+    public function getSpeed()
+    {
+        return $this ->speed;
+    }
 }
 
-//Get static property
+$myCar = new Car();
 
-echo CAR::$numberSold;
+$myCar->speed = 100;
+
+echo $myCar->getSpeed();
