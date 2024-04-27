@@ -30,20 +30,32 @@
 // $myPerson2->family = "Mohammadi";
 // $myPerson2->showInfo();
 
-class Person {
+// class Person {
 
-    public $name;
-    public $family;
-    const AGE = 27;
+//     public $name;
+//     public $family;
+//     const AGE = 27;
 
-    public function showInfo(){
-        echo $this->name . " " . $this->family . " " . Person::AGE;
-    }
-    //double colon   
+//     public function showInfo(){
+//         echo $this->name . " " . $this->family . " " . Person::AGE;
+//     }
+//     //double colon   
+// }
+
+// $myPerson = new Person();
+
+// //get const property
+// $myPerson-> name ="Ali";
+// $myPerson->family = "Ghorbani";
+// $myPerson->showInfo();
+
+//static property
+
+class Car{
+    public $model;
+    public static $numberSold = 0;
 }
 
-$myPerson = new Person();
+//Get static property
 
-$myPerson-> name ="Ali";
-$myPerson->family = "Ghorbani";
-$myPerson->showInfo();
+echo CAR::$numberSold;
