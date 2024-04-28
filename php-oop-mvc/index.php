@@ -94,19 +94,40 @@
 
 // echo $myCar->getSpeed();
 
-Class Car
-{
-    public $speed;
+// Class Car
+// {
+//     protected $speed;
 
-    public function getSpeed()
+//     public function getSpeed()
+//     {
+//         return $this ->speed;
+//     }
+// }
+
+// $myCar = new Car();
+
+// $myCar->speed = 100;
+
+// echo $myCar->getSpeed();
+
+class Time{
+    private $hour;
+    private $min;
+    private $sec;
+
+    function __construct($hour = 0, $min = 0, $sec = 0)
     {
-        return $this ->speed;
+        $this->hour = $hour;
+        $this->min = $min;
+        $this->sec = $sec;
     }
+
+    public function getTime(){
+    return $this->hour . " : " . $this->min . " : " . $this->sec;
+    }
+
 }
 
-$myCar = new Car();
-
-$myCar->speed = 100;
-
-echo $myCar->getSpeed();
+$time = new Time(12);
+echo $time->getTime();
 
