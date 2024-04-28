@@ -164,20 +164,67 @@
 // $car = new Car();
 // echo $car::KPL(150, 8);
 
-class Math{
+// class Math{
 
-    const PI = 3.14;
+//     const PI = 3.14;
 
-    public static function sum($x, $y){
-        return $x + $y;
+//     public static function sum($x, $y){
+//         return $x + $y;
+//     }
+
+//     public static function substraction($x, $y){
+//         return $x - $y;
+//     }
+
+// }
+
+// $sum = Math::sum(12, 66);
+
+// echo $sum;
+
+
+// class Car {
+
+//     public $property = 10;
+//     public static $staticProperty = 160;
+
+//     public static function myMethod() {
+
+//         echo Car::$staticProperty;
+
+//         // echo  $this->property;
+        
+//     }
+// }
+
+// Car::myMethod();
+
+
+class Account {
+
+    private $balance = 0;  // balance : current money in account
+
+    public function push($amount){
+        $this->balance += $amount;
     }
 
-    public static function substraction($x, $y){
-        return $x - $y;
+    public function cash($amount){
+        if($amount < $this->balance){
+            $this->balance -= $amount;
+        }else {
+            die("your balance is low");
+        }
     }
 
+    public function getTotalBalance(){
+        return $this->balance. " Euro";
+    }
 }
 
-$sum = Math::sum(12, 66);
+$a = new Account;
 
-echo $sum;
+$a->push(500);
+
+$a->cash(100);
+
+echo $a->getTotalBalance() . "<br>";
