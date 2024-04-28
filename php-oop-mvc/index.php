@@ -110,24 +110,74 @@
 
 // echo $myCar->getSpeed();
 
-class Time{
-    private $hour;
-    private $min;
-    private $sec;
+// class Time{
+//     private $hour;
+//     private $min;
+//     private $sec;
 
-    function __construct($hour = 0, $min = 0, $sec = 0)
-    {
-        $this->hour = $hour;
-        $this->min = $min;
-        $this->sec = $sec;
+//     function __construct($hour = 0, $min = 0, $sec = 0)
+//     {
+//         $this->hour = $hour;
+//         $this->min = $min;
+//         $this->sec = $sec;
+//     }
+
+//     public function getTime(){
+//     return $this->hour . " : " . $this->min . " : " . $this->sec;
+//     }
+
+// }
+
+// $time = new Time(12,20,35);
+// echo $time->getTime();
+
+// class Person {
+
+//     public function save(){
+//         echo "saving this object to database...";
+//     }
+
+//     public function  __destruct()
+//     {
+//         $this->save();
+//     }
+// }
+
+// $person = new Person();
+
+// unset($person);
+
+// $person2 = new person();
+// die("Error !");
+
+// static method
+
+// class Car{
+
+//     public static function KPL($kms, $liters){
+//         return ($kms/$liters);
+//     }
+// }
+
+// echo Car::KPL(165,9);
+
+// $car = new Car();
+// echo $car::KPL(150, 8);
+
+class Math{
+
+    const PI = 3.14;
+
+    public static function sum($x, $y){
+        return $x + $y;
     }
 
-    public function getTime(){
-    return $this->hour . " : " . $this->min . " : " . $this->sec;
+    public static function substraction($x, $y){
+        return $x - $y;
     }
 
 }
 
-$time = new Time(12);
-echo $time->getTime();
+$sum = Math::sum(12, 66);
 
+echo $sum;
