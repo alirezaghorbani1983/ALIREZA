@@ -304,15 +304,46 @@
 
 // echo $time->getTime();
 
-class Car{
+// class Car{
 
-    public function __get($propertyName){
-        return "Red";
+//     public function __get($propertyName){
+//         return "Red";
+//     }
+// }
+
+// $car = new Car;
+
+// $value = $car->size;
+
+// echo "the color is $value";
+
+class Shape {
+    //Code
+}
+
+class Circle extends Shape {
+    // Code
+}
+
+class ParentClass
+{
+    public function myMethod()
+    {
+        return "Parent Method";
     }
 }
 
-$car = new Car;
+class ChildClass extends ParentClass
+{
+    // public function myMethod()
+    // {
+    //     return "Child Method";
+    // }
+}
 
-$value = $car->size;
+// $parentObj = new ParentClass();
 
-echo "the color is $value";
+// echo $parentObj->myMethod(). "</br>";
+
+$childObj = new ChildClass();
+echo $childObj->myMethod();
