@@ -317,33 +317,57 @@
 
 // echo "the color is $value";
 
-class Shape {
-    //Code
-}
+// class Shape {
+//     //Code
+// }
 
-class Circle extends Shape {
-    // Code
-}
+// class Circle extends Shape {
+//     // Code
+// }
 
-class ParentClass
-{
-    public function myMethod()
-    {
-        return "Parent Method";
-    }
-}
+// class ParentClass
+// {
+//     public function myMethod()
+//     {
+//         return "Parent Method";
+//     }
+// }
 
-class ChildClass extends ParentClass
-{
+// class ChildClass extends ParentClass
+// {
     // public function myMethod()
     // {
     //     return "Child Method";
     // }
-}
+// }
 
 // $parentObj = new ParentClass();
 
 // echo $parentObj->myMethod(). "</br>";
 
-$childObj = new ChildClass();
-echo $childObj->myMethod();
+// $childObj = new ChildClass();
+// echo $childObj->myMethod();
+
+// final class ParentClass{
+//     public function myMethod(){
+//         echo "Parent Method";       
+//     }
+// }
+
+// class ChildClass extends ParentClass{
+//     public function myMethod(){
+//         echo "Child Methdo";
+//     }
+// }
+
+class ParentClass{
+    final public function myMethod(){
+        echo "Parent Method";       
+    }
+}
+
+class ChildClass extends ParentClass{
+    public function myMethod(){
+        echo "Child Methdo";
+    }
+}
