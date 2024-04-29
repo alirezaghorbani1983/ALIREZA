@@ -200,31 +200,106 @@
 // Car::myMethod();
 
 
-class Account {
+// class Account {
 
-    private $balance = 0;  // balance : current money in account
+//     private $balance = 0;  // balance : current money in account
 
-    public function push($amount){
-        $this->balance += $amount;
+//     public function push($amount){
+//         $this->balance += $amount;
+//     }
+
+//     public function cash($amount){
+//         if($amount < $this->balance){
+//             $this->balance -= $amount;
+//         }else {
+//             die("your balance is low");
+//         }
+//     }
+
+//     public function getTotalBalance(){
+//         return $this->balance. " Euro";
+//     }
+// }
+
+// $a = new Account;
+
+// $a->push(500);
+
+// $a->cash(100);
+
+// echo $a->getTotalBalance() . "<br>";
+
+// $a->cash(1000);
+
+
+class Time 
+{
+    private $hour = 0;
+    private $min = 0;
+    private $sec = 0;
+
+    public function __construct($hour = 0, $min = 0, $sec = 0)
+    {
+        if (is_int($hour) && $hour >= 0 && $hour < 24){
+            $this->hour = $hour;
+        }
+
+        if (is_int($min) && $min >= 0 && $min < 60){
+            $this->min = $min;
+        }
+
+        if (is_int($sec) && $sec >= 0 && $sec < 60){
+            $this->sec = $sec;
+        }
+        
     }
 
-    public function cash($amount){
-        if($amount < $this->balance){
-            $this->balance -= $amount;
-        }else {
-            die("your balance is low");
+    public function __set($property, $value)
+    {
+        if($property == "hour" || $property == "min" || $property == "sec")
+        {
+            if ($property == "hour"){
+
+                if (is_int($value) && $value >=0 && $value < 24){
+                    $this->hour = $value;
+                }
+            }
+
+            if ($property == "min"){
+
+                if (is_int($value) && $value >=0 && $value < 60){
+                    $this->min = $value;
+                }
+            }
+
+            if ($property == "sec"){
+
+                if (is_int($value) && $value >=0 && $value < 60){
+                    $this->sec = $value;
+                }
+            }
         }
     }
 
-    public function getTotalBalance(){
-        return $this->balance. " Euro";
+    public function __get($property)
+    {
+        if($property == "hour" || $property == "min" || $property == "sec"){
+            return $this->$property;
+        }
     }
+
+    public function getTime(){
+        return $this->hour . " : " . $this->min . " : " . $this->sec;
+
+    }
+        
 }
 
-$a = new Account;
+$time = new Time();
 
-$a->push(500);
+//set
+$time->hour = 12;
+$time->min = 70;
+$time->sec = 19;
 
-$a->cash(100);
-
-echo $a->getTotalBalance() . "<br>";
+echo $time->getTime();
