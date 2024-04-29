@@ -395,3 +395,39 @@
 // class ChildCar extends Car{
 //     //Code
 // }
+
+
+// interface MyInterface
+// {
+//     public function myMethod1();
+//     public function myMethod2($param1, $param2);
+// }
+
+// class MyClass implements MyInterface
+// {
+//     public function myMethod1(){
+//         //Code
+//     }
+
+//     public function myMethod2($param1, $param2){
+//         Code
+//     }
+
+// }
+
+// class MyClass extends OtherClass implements MyInterface
+// {
+//     public function myMethod1(){
+//         //Code
+//     }
+
+//     public function myMethod2($param1, $param2){
+//         //Code
+//     }
+
+// }
+
+
+// interface MyInterface extends OtherInterface {
+
+// }
