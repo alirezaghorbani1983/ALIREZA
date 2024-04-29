@@ -360,14 +360,38 @@
 //     }
 // }
 
-class ParentClass{
-    final public function myMethod(){
-        echo "Parent Method";       
-    }
-}
+// class ParentClass{
+//     final public function myMethod(){
+//         echo "Parent Method";       
+//     }
+// }
 
-class ChildClass extends ParentClass{
-    public function myMethod(){
-        echo "Child Methdo";
-    }
-}
+// class ChildClass extends ParentClass{
+//     public function myMethod(){
+//         echo "Child Methdo";
+//     }
+// }
+
+// abstract class Car {
+//     protected $name ;
+//     protected $color;
+
+//     //code
+// }
+
+// $car = new Car();
+
+// abstract class Car {
+//     protected $name;
+//     protected $color;
+
+//     abstract public function break();
+
+//     public function getName(){
+//         return $this->name;
+//     }
+// }
+
+// class ChildCar extends Car{
+//     //Code
+// }
