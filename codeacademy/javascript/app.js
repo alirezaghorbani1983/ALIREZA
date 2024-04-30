@@ -215,28 +215,54 @@ if (season === 'spring') {
 
 // console.log(lifePhase(6));
 
-const finalGrade = (midterm, final, homework) => {
-  if ((midterm < 0 || midterm > 100) || (final < 0 || final > 100) || (homework < 0 || homework > 100)) {
-      return 'You have entered an invalid grade.'
-  }
-  let average = (midterm + final + homework) / 3;
-  if (average < 60) {
-      return 'F';
-  }
-  else if (average < 70) {
-      return 'D';
-  }
-  else if (average < 80) {
-      return 'C';
-  }
-  else if (average < 90) {
-      return 'B';
-  } else {
-      return 'A';
+// const finalGrade = (midterm, final, homework) => {
+//   if ((midterm < 0 || midterm > 100) || (final < 0 || final > 100) || (homework < 0 || homework > 100)) {
+//       return 'You have entered an invalid grade.'
+//   }
+//   let average = (midterm + final + homework) / 3;
+//   if (average < 60) {
+//       return 'F';
+//   }
+//   else if (average < 70) {
+//       return 'D';
+//   }
+//   else if (average < 80) {
+//       return 'C';
+//   }
+//   else if (average < 90) {
+//       return 'B';
+//   } else {
+//       return 'A';
+//   }
+// }
+
+// console.log(finalGrade(34, 68, 81));
+
+
+// const rollTheDice = () => {
+//   // Math.random() gives us a random number from 0 up to, but not including, 1
+//   // We multiplied that by 6 to get a number between 0 and up to, but not including, 6
+//   // But since we actually wanted numbers from 1 to 6, inclusive, we added 1
+//     let die1 = Math.floor(Math.random() * 6 + 1)
+//     let die2 = Math.floor(Math.random() * 6 + 1)
+//     return die1 + die2
+// }
+
+const calculateWeight = (earthWeight, planet) => {
+  switch (planet) {
+          case 'Mercury':
+              return earthWeight * 0.378;
+          case 'Venus':
+              return earthWeight * 0.907;
+          case 'Mars':
+              return earthWeight * 0.377;
+          case 'Jupiter':
+              return earthWeight * 2.36;
+          case 'Saturn':
+              return earthWeight * 0.916;
+          default:
+              return 'Invalid Planet Entry. Try: Mercury, Venus, Mars, Jupiter, or Saturn.';
   }
 }
 
-console.log(finalGrade(34, 68, 81));
-
-
-
+console.log(calculateWeight(100, 'Jupiter'));
