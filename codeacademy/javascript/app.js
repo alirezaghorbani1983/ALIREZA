@@ -269,8 +269,30 @@ if (season === 'spring') {
 
 //sillySentence()
 
-const sillySentence = (adjective, verb, noun) => {
-  return `I am so ${adjective} because I ${verb} coding! Time to write some more awesome ${noun}!`;
-}
+// const sillySentence = (adjective, verb, noun) => {
+//   return `I am so ${adjective} because I ${verb} coding! Time to write some more awesome ${noun}!`;
+// }
 
-console.log(sillySentence("happy", "like", "codes"));
+// console.log(sillySentence("happy", "like", "codes"));
+
+const howOld = (age, year) => {
+  // The following two lines make it so that our function always knows the current year.
+      let dateToday = new Date();
+      let thisYear = dateToday.getFullYear();
+      //The .getFullYear() method is a built-in JavaScript method that belongs to the Date object. It returns the current year as a four-digit number (e.g., 2024).
+  
+    // It is totally ok if your function used the current year directly!
+    
+      const yearDifference = year - thisYear
+      const newAge = age + yearDifference
+      if (newAge > age) {
+          return `You will be ${newAge} in the year ${year}`
+      } else if (newAge < 0) {
+          return `The year ${year} was ${-newAge} years before you were born`
+      } else {
+          return `You were ${newAge} in the year ${year}`
+      }
+  }
+  
+  
+  console.log(howOld(40, 1983));
