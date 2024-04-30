@@ -248,21 +248,29 @@ if (season === 'spring') {
 //     return die1 + die2
 // }
 
-const calculateWeight = (earthWeight, planet) => {
-  switch (planet) {
-          case 'Mercury':
-              return earthWeight * 0.378;
-          case 'Venus':
-              return earthWeight * 0.907;
-          case 'Mars':
-              return earthWeight * 0.377;
-          case 'Jupiter':
-              return earthWeight * 2.36;
-          case 'Saturn':
-              return earthWeight * 0.916;
-          default:
-              return 'Invalid Planet Entry. Try: Mercury, Venus, Mars, Jupiter, or Saturn.';
-  }
+// const calculateWeight = (earthWeight, planet) => {
+//   switch (planet) {
+//           case 'Mercury':
+//               return earthWeight * 0.378;
+//           case 'Venus':
+//               return earthWeight * 0.907;
+//           case 'Mars':
+//               return earthWeight * 0.377;
+//           case 'Jupiter':
+//               return earthWeight * 2.36;
+//           case 'Saturn':
+//               return earthWeight * 0.916;
+//           default:
+//               return 'Invalid Planet Entry. Try: Mercury, Venus, Mars, Jupiter, or Saturn.';
+//   }
+// }
+
+// console.log(calculateWeight(100, 'Jupiter'));
+
+//sillySentence()
+
+const sillySentence = (adjective, verb, noun) => {
+  return `I am so ${adjective} because I ${verb} coding! Time to write some more awesome ${noun}!`;
 }
 
-console.log(calculateWeight(100, 'Jupiter'));
+console.log(sillySentence("happy", "like", "codes"));
