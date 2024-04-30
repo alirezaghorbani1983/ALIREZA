@@ -327,20 +327,41 @@ if (season === 'spring') {
 
 // Write your function here:
 
-const tipCalculator = (quality, totalCost) => {
-  switch (quality) {
-        case 'bad':
-            return 0.05 * totalCost;
-        case 'ok':
-            return 0.15 * totalCost;
-        case 'good':
-            return 0.20 * totalCost;
-        case 'excellent':
-            return 0.30 * totalCost;
-        default:
-            return 0.18 * totalCost;
-    }
+// const tipCalculator = (quality, totalCost) => {
+//   switch (quality) {
+//         case 'bad':
+//             return 0.05 * totalCost;
+//         case 'ok':
+//             return 0.15 * totalCost;
+//         case 'good':
+//             return 0.20 * totalCost;
+//         case 'excellent':
+//             return 0.30 * totalCost;
+//         default:
+//             return 0.18 * totalCost;
+//     }
 
+// }
+
+// console.log(tipCalculator('bad', 100));
+
+// Write your function here:
+const toEmoticon = (state) => {
+  switch (state) {
+      case 'shrug':
+          return '|_{"}_|';
+      case 'smiley face':
+          return ':)';
+      case 'frowny face':
+          return ':(';
+      case 'winky face':
+          return ';)';
+      case 'heart':
+          return '<3';
+      default:
+          return '|_(* ~ *)_|';
+  }
 }
 
-console.log(tipCalculator('bad', 100));
+
+console.log(toEmoticon('heart'));
