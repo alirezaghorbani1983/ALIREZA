@@ -297,30 +297,50 @@ if (season === 'spring') {
   
   // console.log(howOld(40, 1983));
 
-  const whatRelation = percentSharedDNA => {
-    if (percentSharedDNA === 100) {
-        return 'You are likely identical twins.'
-    }
-    if (percentSharedDNA > 34) {
-        return 'You are likely parent and child or full siblings.'
-    }
-    if (percentSharedDNA < 13) {
-        return 'You are likely grandparent and grandchild, aunt/uncle and niece/nephew, or half siblings.'
-    }
-    if (percentSharedDNA > 5) {
-        return 'You are likely 1st cousins.'
-    }
-    if (percentSharedDNA >= 2) {
-        return 'You are likely 2nd cousins.'
-    }
-    if (percentSharedDNA > 0) {
-        return 'You are likely 3rd cousins'
-    }
-    return 'You are likely not related.'
-}
+//   const whatRelation = percentSharedDNA => {
+//     if (percentSharedDNA === 100) {
+//         return 'You are likely identical twins.'
+//     }
+//     if (percentSharedDNA > 34) {
+//         return 'You are likely parent and child or full siblings.'
+//     }
+//     if (percentSharedDNA < 13) {
+//         return 'You are likely grandparent and grandchild, aunt/uncle and niece/nephew, or half siblings.'
+//     }
+//     if (percentSharedDNA > 5) {
+//         return 'You are likely 1st cousins.'
+//     }
+//     if (percentSharedDNA >= 2) {
+//         return 'You are likely 2nd cousins.'
+//     }
+//     if (percentSharedDNA > 0) {
+//         return 'You are likely 3rd cousins'
+//     }
+//     return 'You are likely not related.'
+// }
 
-console.log(whatRelation(34))
+// console.log(whatRelation(34));
 // Should print 'You are likely grandparent and grandchild, aunt/uncle and niece/nephew, or half siblings.'
 
-console.log(whatRelation(3))
+// console.log(whatRelation(3));
 // Should print 'You are likely 2nd cousins.'
+
+// Write your function here:
+
+const tipCalculator = (quality, totalCost) => {
+  switch (quality) {
+        case 'bad':
+            return 0.05 * totalCost;
+        case 'ok':
+            return 0.15 * totalCost;
+        case 'good':
+            return 0.20 * totalCost;
+        case 'excellent':
+            return 0.30 * totalCost;
+        default:
+            return 0.18 * totalCost;
+    }
+
+}
+
+console.log(tipCalculator('bad', 100));
