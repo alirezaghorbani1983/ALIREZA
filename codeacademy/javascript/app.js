@@ -374,10 +374,22 @@ if (season === 'spring') {
 //   }
 // }
 
-const colorMessage = (favoriteColor, shirtColor) => {
-  if(favoriteColor === shirtColor){
-    return 'The shirt is your favorite color!';
+// const colorMessage = (favoriteColor, shirtColor) => {
+//   if(favoriteColor === shirtColor){
+//     return 'The shirt is your favorite color!';
+//   } else {
+//     return 'That is a nice color.';
+//   }
+// }
+
+const numberDigits = (x) => {
+  if (x >= 0 && x < 10) {
+    return 'One digit: ' + x;
+  } else if (x >= 10 && x < 100) {
+    return 'Two digits: ' + x;
   } else {
-    return 'That is a nice color.';
+    return 'The number is: ' + x;
   }
 }
+
+console.log(numberDigits(5));   
