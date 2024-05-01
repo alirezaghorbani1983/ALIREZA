@@ -365,11 +365,19 @@ if (season === 'spring') {
 
 
 // console.log(toEmoticon('heart'));
-const isEven = (number)=> 
-{
-  if(number % 2 === 0){
-    return true;
+// const isEven = (number)=> 
+// {
+//   if(number % 2 === 0){
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+const colorMessage = (favoriteColor, shirtColor) => {
+  if(favoriteColor === shirtColor){
+    return 'The shirt is your favorite color!';
   } else {
-    return false;
+    return 'That is a nice color.';
   }
 }
