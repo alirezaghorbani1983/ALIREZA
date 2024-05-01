@@ -346,22 +346,30 @@ if (season === 'spring') {
 // console.log(tipCalculator('bad', 100));
 
 // Write your function here:
-const toEmoticon = (state) => {
-  switch (state) {
-      case 'shrug':
-          return '|_{"}_|';
-      case 'smiley face':
-          return ':)';
-      case 'frowny face':
-          return ':(';
-      case 'winky face':
-          return ';)';
-      case 'heart':
-          return '<3';
-      default:
-          return '|_(* ~ *)_|';
+// const toEmoticon = (state) => {
+//   switch (state) {
+//       case 'shrug':
+//           return '|_{"}_|';
+//       case 'smiley face':
+//           return ':)';
+//       case 'frowny face':
+//           return ':(';
+//       case 'winky face':
+//           return ';)';
+//       case 'heart':
+//           return '<3';
+//       default:
+//           return '|_(* ~ *)_|';
+//   }
+// }
+
+
+// console.log(toEmoticon('heart'));
+const isEven = (number)=> 
+{
+  if(number % 2 === 0){
+    return true;
+  } else {
+    return false;
   }
 }
-
-
-console.log(toEmoticon('heart'));
