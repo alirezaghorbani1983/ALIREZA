@@ -435,11 +435,14 @@ if (season === 'spring') {
 
 // groceryList[1] = 'avocados';
 
-let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha'];
+// let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha'];
 
-const utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
+// const utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
 
-condiments[0] = 'Mayo';
-console.log(condiments);
+// condiments[0] = 'Mayo';
+// console.log(condiments);
+const objectives = ['Learn a new language', 'Read 52 books', 'Run a marathon'];
+
+console.log(objectives.length);
 
 
