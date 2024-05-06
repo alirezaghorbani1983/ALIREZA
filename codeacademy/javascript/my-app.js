@@ -441,8 +441,11 @@ if (season === 'spring') {
 
 // condiments[0] = 'Mayo';
 // console.log(condiments);
-const objectives = ['Learn a new language', 'Read 52 books', 'Run a marathon'];
+// const objectives = ['Learn a new language', 'Read 52 books', 'Run a marathon'];
 
-console.log(objectives.length);
+// console.log(objectives.length);
 
+const chores = ['wash dishes', 'do laundry', 'take out trash', 'cook dinner', 'mop floor'];
 
+chores.pop();
+console.log(chores);
