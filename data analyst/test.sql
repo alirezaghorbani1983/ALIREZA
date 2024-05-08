@@ -19,3 +19,6 @@ VALUES (3, 'Jeremy Lin', 35);
 
 INSERT INTO celebs (id, name, age) 
 VALUES (4, 'Taylor Swift', 33); 
+
+-- SELECT name FROM celebs; 
+SELECT * FROM celebs;
