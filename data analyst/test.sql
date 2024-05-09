@@ -49,3 +49,10 @@ SELECT * FROM friends;
 INSERT INTO friends (id, name, birthday) VALUES (1, 'John Doe', '1990-04-15');
 
 INSERT INTO friends (id, name, birthday) VALUES (2, 'Jane Smith', '1985-10-20');
+
+UPDATE friends
+SET name = 'Storm'
+WHERE name = 'Ororo Munroe';
+
+ALTER friends
+ADD COLUMN email TEXT;
