@@ -56,3 +56,8 @@ WHERE name = 'Ororo Munroe';
 
 ALTER friends
 ADD COLUMN email TEXT;
+
+DELETE FROM friends 
+WHERE id = 1;
+
+SELECT * FROM friends;
