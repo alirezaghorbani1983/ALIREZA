@@ -61,3 +61,7 @@ DELETE FROM friends
 WHERE id = 1;
 
 SELECT * FROM friends;
+
+SELECT *
+FROM movies
+WHERE year BETWEEN 1970 AND 1979;
