@@ -77,3 +77,8 @@ WHERE  genre = "romance" or genre = "comedy";
 SELECT name, year, imdb_rating
 FROM movies
 ORDER BY imdb_rating DESC;
+
+SELECT *
+FROM movies
+ORDER BY imdb_rating DESC
+LIMIT 3;
