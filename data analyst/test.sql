@@ -69,3 +69,7 @@ WHERE year BETWEEN 1970 AND 1979;
 SELECT *
 FROM movies
 WHERE year < 1985 AND genre = 'horror';
+
+SELECT *
+FROM movies
+WHERE  genre = "romance" or genre = "comedy";
