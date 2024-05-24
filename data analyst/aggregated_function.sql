@@ -7,3 +7,6 @@ FROM fake_apps;
 
 SELECT AVG(downloads)
 FROM fake_apps;
+
+SELECT ROUND(AVG(price), 2)
+FROM fake_apps;
