@@ -104,3 +104,8 @@ WHERE neighborhood = 'Midtown'
 SELECT *
 FROM nomnom
 WHERE health IS NULL;
+
+SELECT *
+FROM nomnom
+ORDER BY review DESC
+LIMIT 10;
