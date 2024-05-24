@@ -94,3 +94,9 @@ FROM movies;
 SELECT *
 FROM nomnom
 WHERE name LIKE '%meatball%';
+
+SELECT *
+FROM nomnom
+WHERE neighborhood = 'Midtown'
+   OR neighborhood = 'Downtown'
+   OR neighborhood = 'Chinatown';
