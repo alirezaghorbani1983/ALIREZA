@@ -100,3 +100,7 @@ FROM nomnom
 WHERE neighborhood = 'Midtown'
    OR neighborhood = 'Downtown'
    OR neighborhood = 'Chinatown';
+
+SELECT *
+FROM nomnom
+WHERE health IS NULL;
