@@ -90,3 +90,7 @@ SELECT name,
   ELSE 'Intense'
  END AS 'Mood'
 FROM movies;
+
+SELECT *
+FROM nomnom
+WHERE name LIKE '%meatball%';
