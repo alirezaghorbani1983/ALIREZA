@@ -30,5 +30,5 @@ HAVING COUNT(*) > 10;
 
 -- mini- project
 
-SELECT *
+SELECT COUNT(*)
 FROM startups;
