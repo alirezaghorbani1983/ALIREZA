@@ -27,3 +27,8 @@ SELECT price,
 FROM fake_apps
 GROUP BY price
 HAVING COUNT(*) > 10;
+
+-- mini- project
+
+SELECT *
+FROM startups;
