@@ -20,3 +20,10 @@ SELECT category,
    AVG(downloads)
 FROM fake_apps
 GROUP BY 1, 2;
+
+SELECT price, 
+   ROUND(AVG(downloads)),
+   COUNT(*)
+FROM fake_apps
+GROUP BY price
+HAVING COUNT(*) > 10;
