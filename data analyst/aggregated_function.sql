@@ -10,3 +10,7 @@ FROM fake_apps;
 
 SELECT ROUND(AVG(price), 2)
 FROM fake_apps;
+
+SELECT category, SUM(downloads)
+FROM fake_apps
+GROUP BY category;
