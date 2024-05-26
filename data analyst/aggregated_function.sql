@@ -30,5 +30,16 @@ HAVING COUNT(*) > 10;
 
 -- mini- project
 
+SELECT *
+FROM startups;
+
 SELECT COUNT(*)
 FROM startups;
+
+
+SELECT AVG(valuation)
+FROM startups;
+
+SELECT MAX(raised) FROM startups; 
+
+
