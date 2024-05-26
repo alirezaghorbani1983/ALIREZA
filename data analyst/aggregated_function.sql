@@ -45,4 +45,8 @@ SELECT MAX(raised) FROM startups;
 SELECT AVG(valuation)
 FROM startups;
 
+SELECT category, 
+       ROUND(AVG(valuation), 2) AS average_valuation
+FROM startups
+GROUP BY category;
 
