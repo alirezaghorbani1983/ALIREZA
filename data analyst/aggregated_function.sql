@@ -42,4 +42,7 @@ FROM startups;
 
 SELECT MAX(raised) FROM startups; 
 
+SELECT AVG(valuation)
+FROM startups;
+
 
