@@ -63,3 +63,8 @@ SELECT location, AVG(employees) AS size
 FROM startups
 GROUP BY location;
 
+SELECT location, AVG(employees) AS size
+FROM startups
+GROUP BY location
+HAVING AVG(employees) > 500;
+
