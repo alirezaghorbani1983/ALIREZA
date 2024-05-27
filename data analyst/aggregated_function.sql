@@ -50,3 +50,16 @@ SELECT category,
 FROM startups
 GROUP BY category;
 
+SELECT category, COUNT(*) 
+FROM startups 
+GROUP BY category;
+
+SELECT category, COUNT(*) 
+FROM startups 
+GROUP BY category 
+HAVING COUNT(*) > 3;
+
+SELECT location, AVG(employees) AS size
+FROM startups
+GROUP BY location;
+
