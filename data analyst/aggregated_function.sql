@@ -77,3 +77,8 @@ FROM hacker_news
 GROUP BY user
 HAVING SUM(score) > 200;
 
+SELECT  user, url, COUNT (url)
+FROM hacker_news
+WHERE url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+GROUP BY user;
+
