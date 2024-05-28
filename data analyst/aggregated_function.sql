@@ -68,3 +68,12 @@ FROM startups
 GROUP BY location
 HAVING AVG(employees) > 500;
 
+
+
+-- HACKER NEWS PROJECT
+
+SELECT  SUM(score),  user
+FROM hacker_news
+GROUP BY user
+HAVING SUM(score) > 200;
+
