@@ -84,4 +84,11 @@ GROUP BY user
 ORDER BY 3 DESC;
 
 
+SELECT CASE
+   WHEN url LIKE '%github.com%' THEN 'GitHub'
+   WHEN url LIKE '%medium.com%' THEN 'Medium'
+   WHEN url LIKE '%nytimes.com%' THEN 'New York Times'
+    ELSE 'Other'
+  END AS 'Source'
+FROM hacker_news;
 
