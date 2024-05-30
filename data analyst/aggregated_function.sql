@@ -131,3 +131,8 @@ SELECT COUNT(*)
 FROM newspaper
 JOIN online 
   ON newspaper.id = online.id;
+
+SELECT *
+FROM students
+INNER JOIN classes
+ON students.class_id = classes.id;
