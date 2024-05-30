@@ -112,3 +112,22 @@ SELECT
 FROM hacker_news
 GROUP BY 1
 ORDER BY 2 DESC;
+
+SELECT 
+   strftime('%H', timestamp) AS Hour, ROUND(AVG(score)) AS avg_score , COUNT(*) num_stories
+FROM hacker_news
+WHERE timestamp IS NOT NULL
+GROUP BY 1
+ORDER BY 2 DESC;
+
+
+SELECT COUNT(*)
+FROM newspaper;
+
+SELECT COUNT(*)
+FROM online;
+
+SELECT COUNT(*)
+FROM newspaper
+JOIN online 
+  ON newspaper.id = online.id;
