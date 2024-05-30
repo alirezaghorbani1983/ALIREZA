@@ -101,3 +101,14 @@ SELECT CASE
 FROM hacker_news
 GROUP BY 1;
 
+SELECT timestamp,
+   strftime('%H', timestamp)
+FROM hacker_news
+GROUP BY 1
+LIMIT 20;
+
+SELECT 
+   strftime('%H', timestamp), AVG(score), Count(*)
+FROM hacker_news
+GROUP BY 1
+ORDER BY 2 DESC;
