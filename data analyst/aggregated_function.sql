@@ -140,3 +140,9 @@ ON students.class_id = classes.id;
 SELECT *
 FROM newspaper
 CROSS JOIN months;
+
+SELECT *
+FROM newspaper
+CROSS JOIN months
+WHERE start_month <= month 
+  AND end_month >= month;
