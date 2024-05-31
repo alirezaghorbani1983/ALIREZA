@@ -136,3 +136,7 @@ SELECT *
 FROM students
 INNER JOIN classes
 ON students.class_id = classes.id;
+
+SELECT *
+FROM newspaper
+CROSS JOIN months;
