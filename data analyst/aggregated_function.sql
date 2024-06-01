@@ -146,3 +146,12 @@ FROM newspaper
 CROSS JOIN months
 WHERE start_month <= month 
   AND end_month >= month;
+
+
+SELECT month,
+  COUNT(*)
+FROM newspaper
+CROSS JOIN months
+WHERE start_month <= months.month
+  AND end_month >= months.month
+GROUP BY month;
