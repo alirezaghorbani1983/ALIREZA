@@ -173,3 +173,13 @@ SELECT customers.customer_name,
 FROM previous_query
 JOIN customers
     ON previous_query.customer_id = customers.customer_id;
+
+
+   --  Lyft Trip Data  mini project
+
+   
+SELECT riders.first,
+   riders.last,
+   cars.model
+FROM riders, cars;
+
