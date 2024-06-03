@@ -38,3 +38,12 @@ print(9 ** 3)
 # 4 to the half power, or 2
 print(4 ** 0.5)
 
+# 6x6 quilt
+print(6 ** 2)
+
+# 7x7 quilt
+print(7 ** 2)
+
+# 8x8 quilt
+print(8 ** 2)
+
