@@ -47,3 +47,6 @@ print(7 ** 2)
 # 8x8 quilt
 print(8 ** 2)
 
+# part 2
+print(6 ** 4)
+
