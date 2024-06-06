@@ -50,3 +50,12 @@ print(8 ** 2)
 # part 2
 print(6 ** 4)
 
+order_263_r = 263 % 11
+
+print(order_263_r)
+
+order_263_coupon = "no";
+
+# Print the result
+print(order_263_coupon)
+
