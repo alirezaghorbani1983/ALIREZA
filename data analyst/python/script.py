@@ -108,3 +108,12 @@ print("Greeting:", greeting)
 print("Name:", name)
 print("Greeting with name:", greeting_with_name)
 
+# Python Syntax: Medical Insurance Project
+# create the initial variables below
+age = 28
+
+sex = 1
+bmi = 26.2
+num_of_childeren = 3
+smoker = 0
+
