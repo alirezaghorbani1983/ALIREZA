@@ -117,3 +117,15 @@ bmi = 26.2
 num_of_childeren = 3
 smoker = 0
 
+𝑖𝑛𝑠𝑢𝑟𝑎𝑛𝑐𝑒_𝑐𝑜𝑠𝑡=250∗𝑎𝑔𝑒−128∗𝑠𝑒𝑥+370∗𝑏𝑚𝑖+425∗𝑛𝑢𝑚_𝑜𝑓_𝑐ℎ𝑖𝑙𝑑𝑟𝑒𝑛+24000∗𝑠𝑚𝑜𝑘𝑒𝑟−12500insurance_cost=250∗age−128∗sex+370∗bmi+425∗num_of_children+24000∗smoker−12500
+
+sex = 1;
+age += 4;
+print(age)
+
+new_insurance_cost = (250 * age) - (128 * sex) + (370 * bmi) + (425 * num_of_children) + (24000 * smoker) - 12500
+print(new_insurance_cost)
+
+change_in_insurance_cost = new_insurance_cost - insurance_cost
+
+print("The change in cost of insurance after increasing the age by 4 years is " + str(change_in_insurance_cost) + " dollars.")
