@@ -214,3 +214,17 @@ print("The change in estimated insurance cost for having more children is " + st
 print("Setting the Empire State Building as the starting point and Times Square as our destination.")
 print("Calculating the total distance between our points.") 
 print("The best route is by train and will take approximately 10 minutes.") 
+
+# Call your function here:
+directions_to_timesSq()
+
+def directions_to_timesSq():
+  print("Walk 4 mins to 34th St Herald Square train station.")
+  print("Take the Northbound N, Q, R, or W train 1 stop.")
+  print("Get off the Times Square 42nd Street stop.")
+  print("Take lots of pictures!")
+
+# Call your function here:
+directions_to_timesSq()
+directions_to_timesSq()
+
