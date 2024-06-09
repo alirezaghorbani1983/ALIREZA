@@ -210,3 +210,7 @@ change_in_insurance_cost = new_insurance_cost - insurance_cost
 
 # Display the change in insurance cost
 print("The change in estimated insurance cost for having more children is " + str(change_in_insurance_cost) + " dollars.")
+
+print("Setting the Empire State Building as the starting point and Times Square as our destination.")
+print("Calculating the total distance between our points.") 
+print("The best route is by train and will take approximately 10 minutes.") 
