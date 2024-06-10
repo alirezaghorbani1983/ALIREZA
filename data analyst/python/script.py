@@ -228,3 +228,34 @@ def directions_to_timesSq():
 directions_to_timesSq()
 directions_to_timesSq()
 
+function createRangeIterator(min = 0, max = Infinity, step = 1) {
+  let nextNum = min;
+  let numCount = 0;
+
+  const rangeIterator = {
+    next: function () {
+      let result;
+      if (nextNum < max) {
+        result = { value: nextNum, done: false };
+        nextNum += step;
+        numCount++;
+        return result;
+      }
+      return { value: numCount, done: true };
+    },
+  };
+
+  return rangeIterator;
+}
+
+# Your code below: 
+print("Checking the weather for you!")
+
+def weather_check():
+  print("Looks great outside! Enjoy your trip.")
+
+print("False Alarm, the weather changed! There is a thunderstorm approaching. Cancel your plans and stay inside.")
+
+weather_check()
+
+
