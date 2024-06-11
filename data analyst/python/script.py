@@ -277,3 +277,7 @@ max_price = max(t_shirt_price, shorts_price, mug_price, poster_price)
 
 # Print the maximum price
 print(max_price)
+
+min_price = min(tshirt_price, shorts_price, mug_price, poster_price)
+
+print(min_price)
