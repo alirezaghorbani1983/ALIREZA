@@ -272,3 +272,8 @@ def trip_planner(first_destination, second_destination, final_destination = "Cod
 
 # Call the function with the provided destinations
 trip_planner("Denmark", "France", "Germany")
+
+max_price = max(t_shirt_price, shorts_price, mug_price, poster_price)
+
+# Print the maximum price
+print(max_price)
