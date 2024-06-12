@@ -285,3 +285,18 @@ print(min_price)
 rounded_price = round(tshirt_price, 1)
 
 print(rounded_price)
+def my_function():
+ x = 200
+ print(x)
+
+my_function()
+def outer_function():
+  x = 200
+  # Initialized in outer function
+
+  def inner_function():
+    print(x)
+  inner_function()
+
+outer_function()
+
