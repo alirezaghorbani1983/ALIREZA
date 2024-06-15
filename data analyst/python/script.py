@@ -422,7 +422,8 @@ if test_grade > 60:
 else:
   print("You failed.")
 
-  pet_type = "fish"
+
+pet_type = "fish"
 
 if pet_type == "dog":
   print("You have a dog.")
@@ -433,4 +434,10 @@ elif pet_type == "fish":
   print("You have a fish")
 else:
   print("Not sure!")
+
+  # Enter a user name here, make sure to make it a string
+user_name = "angela_catlady_87"
+
+if user_name == "angela_catlady_87":
+  print("I know it is you, Dave! Go away!")
 
