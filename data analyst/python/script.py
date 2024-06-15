@@ -404,3 +404,21 @@ print(omar_message)
 
 # Calculate the difference between Maria's and Omar's insurance costs
 calculate_difference(maria_insurance_cost, omar_insurance_cost)
+
+test_value = 100
+
+if test_value > 1:
+  print("This code is executed!")
+
+if test_value > 1000:
+  print("This code is NOT executed!")
+
+print("Program continues at this point.")
+
+test_grade = 61
+
+if test_grade > 60:
+  print("You passed.")
+else:
+  print("You failed.")
+
