@@ -422,3 +422,15 @@ if test_grade > 60:
 else:
   print("You failed.")
 
+  pet_type = "fish"
+
+if pet_type == "dog":
+  print("You have a dog.")
+elif pet_type == "cat":
+  print("You have a cat.")
+elif pet_type == "fish":
+  # This is performed
+  print("You have a fish")
+else:
+  print("Not sure!")
+
