@@ -462,5 +462,15 @@ if credits >= 120 or gpa >= 2.0:
   print("You have met at least one of the requirements.")
 
 not 1 + 1 == 2  
-not 7 < 0       
+not 7 < 0   
+
+
+if not credits >= 120:
+  print("You do not have enough credits to graduate.")
+
+if not gpa >= 2.0:
+  print("Your GPA is not high enough to graduate.")
+
+if not credits >= 120 and not gpa >= 2.0:
+  print("You do not meet either requirement to graduate!")
 
