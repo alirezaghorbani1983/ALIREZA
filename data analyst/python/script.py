@@ -564,5 +564,15 @@ orders_combined = orders + new_orders
 
 broken_prices = [5, 3, 4, 5, 4] + [4]
 
+shopping_list = ["eggs", "butter", "milk", "cucumbers", "juice", "cereal"]
+
+last_element = shopping_list [-1]
+
+index5_element = shopping_list [5]
+
+print(last_element)
+
+print(index5_element)
+
 
 
