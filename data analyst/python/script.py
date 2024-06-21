@@ -549,4 +549,11 @@ john_insurance_cost = estimate_insurance_cost(name = 'john', age = 42, sex = 1, 
 # Estimate Keanu's insurance cost
 keanu_insurance_cost = estimate_insurance_cost(name = 'Keanu', age = 29, sex = 1, num_of_children = 3, smoker = 1)
 
+orders = ["daisies", "periwinkle"]
+
+print(orders)
+
+orders.append("tulips")
+
+
 
