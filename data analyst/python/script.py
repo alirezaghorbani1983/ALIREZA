@@ -584,5 +584,13 @@ garden_waitlist[-1] = "Alex"
 
 print(garden_waitlist)
 
+new_store_order_list = ["Orange", "Apple", "Mango", "Broccoli", "Mango"]
+
+print(new_store_order_list)
+
+new_store_order_list.remove("Mango")
+print(new_store_order_list)
+
+
 
 
