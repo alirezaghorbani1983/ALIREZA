@@ -591,6 +591,22 @@ print(new_store_order_list)
 new_store_order_list.remove("Mango")
 print(new_store_order_list)
 
+#Your code below:
+
+class_name_test = [["Jenny", 90], ["Alexus", 85.5], ["Sam",83], ["Ellie", 101.5]]
+
+print(class_name_test)
+
+# Selecting Sam's test score from the list
+sams_score = class_name_test[2][1]
+
+# Printing Sam's score
+print(sams_score)
+
+ellies_score = class_name_test[-1][-1]
+
+print(ellies_score)
+
 
 
 
