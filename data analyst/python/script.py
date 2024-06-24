@@ -676,6 +676,21 @@ print("Updated insurance costs:", insurance_costs)
 
 print("Updated estimated insurance data:", estimated_insurance_data)
 
+# Actual insurance costs
+insurance_costs = [4150.0, 5320.0, 35210.0]
 
+# Estimated insurance costs
+maria_insurance_cost = 4222.0
+rohan_insurance_cost = 5360.0
+valentina_insurance_cost = 36350.0
+
+# Calculate differences
+insurance_cost_difference = [
+    abs(insurance_costs[0] - maria_insurance_cost),
+    abs(insurance_costs[1] - rohan_insurance_cost),
+    abs(insurance_costs[2] - valentina_insurance_cost)
+]
+
+print("Insurance cost differences:", insurance_cost_difference)
 
 
