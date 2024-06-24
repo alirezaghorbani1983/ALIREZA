@@ -664,5 +664,18 @@ insurance_data = list(zip(names, insurance_costs))
 
 print(insurance_data)
 
+names.append("Akira")
+insurance_costs.append(2930.0)
+
+Akira_insurance_cost = estimate_insurance_cost(name = 
+"Arika", age = 19, sex = 1, bmi = 27.1, num_of_children = 0, smoker = 0)
+
+print("Updated names:", names)
+
+print("Updated insurance costs:", insurance_costs)
+
+print("Updated estimated insurance data:", estimated_insurance_data)
+
+
 
 
