@@ -713,4 +713,11 @@ print(data_science_topics)
 data_science_topics.pop(3)
 print(data_science_topics)
 
+number_list = range(9)
+print(list(number_list))
+
+zero_to_seven = range(8)
+
+print(list(zero_to_seven))
+
 
