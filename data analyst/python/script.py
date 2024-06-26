@@ -732,4 +732,11 @@ print(long_list_len)
 big_range_length = len(big_range)
 print(big_range_length)
 
+big_range = range(2, 3000, 100)
+
+# Your code below: 
+big_range_length = len(big_range)
+print(big_range_length)
+
+
 
