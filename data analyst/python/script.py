@@ -787,5 +787,14 @@ twin_beds = inventory.count("twin bed")
 
 inventory.insert(10, "19th Century Bed Frame")
 
+# Assuming the animals list is provided as follows
+animals = ["Lion", "Tiger", "Elephant", "Giraffe"]
+
+# Insert "Buffalo" as the 4th element
+animals.insert(3, "Buffalo")
+
+# Output the result (for verification purposes)
+print("Updated animals list:", animals)
+
 
 
