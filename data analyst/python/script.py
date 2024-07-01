@@ -796,5 +796,15 @@ animals.insert(3, "Buffalo")
 # Output the result (for verification purposes)
 print("Updated animals list:", animals)
 
+# Add your code here
+# Append new individual to names
+names.append("Priscilla")
 
+# Append her insurance cost to insurance_costs
+insurance_costs.append(8320.0)
+
+medical_records = list(zip(names, insurance_costs))
+
+# Output the result (for verification purposes)
+print("Medical records:", medical_records)
 
