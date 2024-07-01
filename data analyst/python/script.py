@@ -808,3 +808,13 @@ medical_records = list(zip(names, insurance_costs))
 # Output the result (for verification purposes)
 print("Medical records:", medical_records)
 
+first_medical_record = medical_records[0]
+
+print(f"Here is the first medical record: {first_medical_record}")
+
+medical_records.sort()
+
+print("Here are the medical records sorted by insurance cost: " + str(medical_records))
+
+cheapest_three = medical_records[:3]
+
