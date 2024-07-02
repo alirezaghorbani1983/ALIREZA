@@ -818,3 +818,14 @@ print("Here are the medical records sorted by insurance cost: " + str(medical_re
 
 cheapest_three = medical_records[:3]
 
+board_games = ["Settlers of Catan", "Carcassone", "Power Grid", "Agricola", "Scrabble"]
+
+sport_games = ["football", "hockey", "baseball", "cricket"]
+
+# for game in board_games:
+#   print(game)
+
+
+for game in sport_games:
+  print(game)
+
