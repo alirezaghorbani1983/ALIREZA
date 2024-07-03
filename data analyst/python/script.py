@@ -843,3 +843,13 @@ while countdown >= 0:
 # Step 5: Print the final message
 print("We have liftoff!")
 
+
+python_topics = ["variables", "control flow", "loops", "modules", "classes"]
+
+#Your code below: 
+length = len(python_topics)
+index = 0
+while index < length:
+  print("I am learning about variables" + python_topics[index])
+  index += 1
+
