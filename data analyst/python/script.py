@@ -853,3 +853,6 @@ while index < length:
   print("I am learning about variables" + python_topics[index])
   index += 1
 
+for student in students_period_A:
+  # students_period_A.append(student)
+  print(student)
