@@ -829,3 +829,9 @@ sport_games = ["football", "hockey", "baseball", "cricket"]
 for game in sport_games:
   print(game)
 
+promise = "I will finish the python loops module!"
+
+# Use range() function in a for loop to print the promise five times
+for _ in range(5):
+    print(promise)
+
