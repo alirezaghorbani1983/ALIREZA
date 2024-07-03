@@ -834,4 +834,12 @@ promise = "I will finish the python loops module!"
 # Use range() function in a for loop to print the promise five times
 for _ in range(5):
     print(promise)
+while countdown >= 0:
+    # Step 3: Print the countdown variable
+    print(countdown)
+    # Step 4: Decrement the countdown variable
+    countdown -= 1
+
+# Step 5: Print the final message
+print("We have liftoff!")
 
