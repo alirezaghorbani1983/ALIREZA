@@ -888,3 +888,11 @@ for location in sales_data:
 
 # Print the total scoops sold
 print(scoops_sold)
+
+grades = [90, 88, 62, 76, 74, 89, 48, 57]
+
+# Create a new list called scaled_grades using a list comprehension
+scaled_grades = [grade + 10 for grade in grades]
+
+# Print the new list of scaled grades
+print(scaled_grades)
