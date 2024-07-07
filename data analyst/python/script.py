@@ -874,3 +874,17 @@ for age in ages:
   if age < 21:
     continue
   print(age)
+
+  sales_data = [[12, 17, 22], [2, 10, 3], [5, 12, 13]]
+
+scoops_sold = 0
+# Step 2: Loop through the sales_data list and print each location list
+for location in sales_data:
+    print(location)
+    
+# Step 3: Nested loop to go through each location sublist element and add the element value to scoops_sold
+    for scoops in location:
+        scoops_sold += scoops
+
+# Print the total scoops sold
+print(scoops_sold)
