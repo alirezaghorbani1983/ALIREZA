@@ -868,3 +868,9 @@ for dog_breed in dog_breeds_available_for_adoption:
         break
 
 print("End of search!")
+
+
+for age in ages:
+  if age < 21:
+    continue
+  print(age)
