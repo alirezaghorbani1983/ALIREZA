@@ -921,3 +921,18 @@ print(cubes)
 temperatures = [-5, 29, 26, -7, 1, 18, 12, 31]
 temperatures_F = [(9.0/5.0)*temp + 32 for temp in temperatures]
 # temperatures_F is now [23.0, 84.2, 78.8, 19.4, 33.8, 64.4, 53.6, 87.8]
+
+
+names = ["Judith", "Abel", "Tyson", "Martha", "Beverley", "David", "Anabel"]
+estimated_insurance_costs = [1000.0, 2000.0, 3000.0, 4000.0, 5000.0, 6000.0, 7000.0]
+actual_insurance_costs = [1100.0, 2200.0, 3300.0, 4400.0, 5500.0, 6600.0, 7700.0]
+
+# Add your code here
+total_cost = 0
+
+for cost in actual_insurance_costs:
+  total_cost += cost
+
+average_cost = total_cost / len(actual_insurance_costs)
+
+print("Average Insurance Cost: " + str(average_cost) + " dollars.")
