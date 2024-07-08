@@ -917,3 +917,7 @@ print(squares)
 
 cubes = [digit ** 3 for digit in single_digits]
 print(cubes)
+
+temperatures = [-5, 29, 26, -7, 1, 18, 12, 31]
+temperatures_F = [(9.0/5.0)*temp + 32 for temp in temperatures]
+# temperatures_F is now [23.0, 84.2, 78.8, 19.4, 33.8, 64.4, 53.6, 87.8]
