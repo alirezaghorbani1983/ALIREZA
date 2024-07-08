@@ -903,3 +903,13 @@ heights = [161, 164, 156, 144, 158, 170, 163, 163, 157]
 can_ride_coaster = [height for height in heights if height > 161]
 
 print(can_ride_coaster)
+
+# Your code below:
+single_digits = list(range(10))
+
+squares = []
+for digit in single_digits: 
+  print(digit)
+  squares.append(digit ** 2)
+
+print(squares)
