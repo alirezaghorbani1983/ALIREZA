@@ -953,3 +953,16 @@ for i in range(len(names)):
 updated_estimated_costs = [cost * 11/10 for cost in estimated_insurance_costs]
 
 print(updated_estimated_costs)
+
+# Add your code here
+total_cost = 0
+i = 0
+
+# Convert the first for loop to a while loop
+while i < len(actual_insurance_costs):
+    total_cost += actual_insurance_costs[i]
+    i += 1
+
+average_cost = total_cost / len(actual_insurance_costs)
+
+print("Average Insurance Cost: " + str(average_cost) + " dollars.")
